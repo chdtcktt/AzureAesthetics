@@ -1,0 +1,22 @@
+﻿@model MvcSeasonsSite.Models.Contact
+
+@{
+    ViewBag.Title = "Thanks";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<title>Thanks!</title>
+
+<div class="white-container boxes">
+    <h3 class="text-center">Thank you, @Model.Email
+        <br/>
+        So glad you decided to be on our mailing list!
+        We will be sending you specials very soon.
+        <br/>
+        @Html.ActionLink("Return","Index")
+    </h3>
+    
+  
+</div>
+
+

@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="~/Content/StyleSheetCustom.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.7.2.min.js"></script>
+    <script src="~/Scripts/lightbox.js"></script>
+    <link href="~/Content/lightbox.css" rel="stylesheet" />
+
+    <!--this is the beginning of the tinyMCE!-->
+    <script type="text/javascript"  src="~/Scripts/tinymce/tinymce.min.js"></script>
+   
+    <script type="text/javascript">
+        tinyMCE.init({
+            mode: "textareas",
+            height: "800",
+            //font_size_classes: "fontSize1,fontSize2,fontSize3,fontSize4,fontSize5,fontSize6,fontSize7",
+            //paste_auto_cleanup_on_paste: true,
+            //paste_remove_styles: true,
+            //paste_remove_styles_if_webkit: true,
+            //paste_strip_class_attributes: true,  
+        });
+    </script>
+
+    <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div id="jumbotron" class="well-small">
+        <img src="~/Content/Images/bannerwithlogo.jpg" />
+    </div>
+    <div class="navbar navbar-inverse">      
+    <div class="navbar-inner top">   
+        
+        
+            <ul class="nav">
+                <li class="@ViewBag.NavBarHomeSelection">@Html.ActionLink("Home", "Index")</li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Skin and Body
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Facials", "Facials")</li>
+                        <li>@Html.ActionLink("Makeup", "Makeup")</li>
+                        <li>@Html.ActionLink("Body Treatments","Body")</li>
+                        <li>@Html.ActionLink("Body Bronzing", "BodyBronzing")</li>
+                        <li>@Html.ActionLink("Bioslimming Wrap", "BioslimmingWrap")</li>  
+                    </ul>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wax & Tint
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Wax Services", "WaxServices")</li>
+                        <li>@Html.ActionLink("Tint Services", "TintServices")</li>
+                         @*<li>@Html.ActionLink("Before and After", "UnderConstruction")</li>*@
+                    </ul>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Non-Invasive LipoLaser
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("LipoLaser Services", "LipoLaser")</li>
+                        <li>@Html.ActionLink("Before and After", "LipoLaserBNA")</li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Infrared Detox Treatment
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("Infared Slimming", "InfaredSlimming")</li>
+                         <li>@Html.ActionLink("Infared Detox", "InfaredDetox")</li>
+                        <li>@Html.ActionLink("Whole Body Vibration", "WBV")</li>
+                        @*<li>@Html.ActionLink("Detox Foot Bath", "DetoxFootBath")</li>*@
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>@Html.ActionLink("302 Skin Care Line", "ThreeOTwoSkinCare")</li>
+                        <li>@Html.ActionLink("Jane Iredale Mineral Cosmetics", "JIMC")</li>
+                        <li>@Html.ActionLink("Bioslimming","Bioslimming")</li>
+                        <li>@Html.ActionLink("Other Products","OtherProducts")</li>
+                     
+                    </ul>
+                </li>
+
+                <li class="@ViewBag.NavBarSpecialsSelection">@Html.ActionLink("SPECIALS!", "Specials")</li>
+            </ul>
+        </div>
+    </div>
+        
+
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="white-container boxes">
+
+<ul id="myTab" class="nav nav-tabs">
+    <li class="active"><a href="#Email" data-toggle="tab">Email Admin</a></li>
+    <li><a href="#Specials" data-toggle="tab">Specials Admin</a></li>
+</ul>
+
+
+
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade in active" id="Email">
+        
+     
+
+        <h3>Email Address Admin</h3>
+        @Html.Action("AdminEmailAddress")
+        <br/>
+
+        
+        <h3>Copy and Paste these into your message to spam folks!</h3>
+        @Html.Action("AdminEmailVomit")
+     
+        
+    </div>
+    <div class="tab-pane fade" id="Specials">
+        <h3>Specials Admin</h3>
+        @Html.Action("AdminSpecial")
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+</div>
+
+

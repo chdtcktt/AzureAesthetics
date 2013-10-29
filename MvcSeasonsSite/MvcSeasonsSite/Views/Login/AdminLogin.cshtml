@@ -1,0 +1,22 @@
+﻿@model MvcSeasonsSite.Models.Login
+
+@{
+    ViewBag.Title = "AdminLogin";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+
+<div class="white-container boxes">
+     @using (Html.BeginForm())
+     {
+         @Html.ValidationSummary()
+         <p>User Name:</p>
+         <p> @Html.TextBox("user")</p>
+         <p>Password:</p>
+         <p> @Html.TextBox("pass")</p>
+         <p> <input type="submit" value="Log In BEOCH!" /></p> 
+       
+     }
+</div>
+

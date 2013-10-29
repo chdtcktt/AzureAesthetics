@@ -1,0 +1,39 @@
+﻿@model MvcSeasonsSite.Models.Special
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+     <p>
+        <input class="btn-primary btn-large" type="submit" value="Save" />
+    </p>
+
+
+
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Content)
+    </div>
+    <div class="editor-field custom-admin-specialtextbox">
+        @Html.EditorFor(model => model.Content)
+            
+    </div>
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+@*@section scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}*@
