@@ -5,7 +5,7 @@
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
-     <p>
+    <p>
         <input class="btn-primary btn-large" type="submit" value="Save" />
     </p>
 
@@ -18,22 +18,13 @@
     </div>
     <div class="editor-field custom-admin-specialtextbox">
         @Html.EditorFor(model => model.Content)
-            
+
     </div>
 
-   
+
 
 
 }
 
 
 
-
-
-
-
-
-
-@*@section scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}*@

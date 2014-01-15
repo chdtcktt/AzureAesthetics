@@ -156,18 +156,6 @@ namespace MvcSeasonsSite.Controllers
 
         #endregion
 
-        #region admin
-        
-    
-        
-        #endregion
-
-        #region Login
-
-        
-
-
-        #endregion
 
         public ActionResult Specials()
         {

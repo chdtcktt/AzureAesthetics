@@ -6,18 +6,18 @@
 }
 
 <div class="white-container boxes">
-    
+
     @using (Html.BeginForm())
     {
-        
+
         @Html.ValidationSummary()
         <p>User Name:</p>
-        <p> @Html.TextBoxFor(x=> x.User)</p>
+        <p> @Html.TextBoxFor(x => x.User)</p>
         <p>Password:</p>
         @*p> @Html.TextBoxFor(x=> x.Pass)</p>*@
-        <p>@Html.PasswordFor(p=> p.Pass)</p>
-      
-        <p><input class="btn btn-primary" type="submit" value="Let My Ass in!" /></p> 
-       
+        <p>@Html.PasswordFor(p => p.Pass)</p>
+
+        <p><input class="btn btn-primary" type="submit" value="Let My Ass in!" /></p>
+
     }
 </div>

@@ -83,9 +83,6 @@ namespace MvcSeasonsSite.Controllers
                                    where s.Id == id
                                    select s).FirstOrDefault();
 
-
-
-
             Db.Contacts.Remove(viewModelDelete);
             Db.SaveChanges();
 
@@ -102,7 +99,7 @@ namespace MvcSeasonsSite.Controllers
 
         }
 
-        public ActionResult AdminLogin()
+        public ActionResult Login()
         {
             return View();
         }

@@ -296,15 +296,11 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Views\Shared\_LayoutPage1.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\AdminSpecial.cshtml" />
     <Content Include="Views\Home\Specials.cshtml" />
     <Content Include="Views\Home\WaxServices.cshtml" />
     <Content Include="Views\Home\TintServices.cshtml" />
     <Content Include="Views\Home\Facials.cshtml" />
     <Content Include="Views\Home\InfaredSlimming.cshtml" />
-    <Content Include="Views\Home\AdminEmailAddress.cshtml" />
-    <Content Include="Views\Home\Admin.cshtml" />
-    <Content Include="Views\Home\AdminEmailVomit.cshtml" />
     <Content Include="Views\Home\Thanks.cshtml" />
     <Content Include="Views\Home\Body.cshtml" />
     <Content Include="Scripts\tinymce\langs\readme.md" />
@@ -320,7 +316,6 @@
     <Content Include="Views\Home\JIMC.cshtml" />
     <Content Include="Views\Home\OtherProducts.cshtml" />
     <Content Include="Views\Login\AdminLogin.cshtml" />
-    <Content Include="Views\Home\AdminLogin.cshtml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
     <Content Include="Views\Home\Bioslimming.cshtml" />
     <Content Include="Views\Home\BodyBronzing.cshtml" />
@@ -328,6 +323,10 @@
     <Content Include="Views\Home\LipoLaserBNA.cshtml" />
     <Content Include="Views\Home\Makeup.cshtml" />
     <Content Include="Views\Admin\Admin.cshtml" />
+    <Content Include="Views\Admin\AdminSpecial.cshtml" />
+    <Content Include="Views\Admin\AdminEmailAddress.cshtml" />
+    <Content Include="Views\Admin\AdminEmailVomit.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
