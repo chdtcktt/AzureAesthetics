@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="dotless.Core">
+      <HintPath>..\packages\dotless.1.4.0.0\lib\dotless.Core.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -125,10 +128,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Content Include="Content\bootstrap-responsive.css" />
-    <Content Include="Content\bootstrap-responsive.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\302 ProductPage\302 Logo.gif" />
     <Content Include="Content\Images\302 ProductPage\302SKINCARE.jpg" />
     <Content Include="Content\Images\302 ProductPage\AcneLarge.jpg" />
@@ -197,6 +197,53 @@
     <Content Include="favicon.ico" />
     <Content Include="favicon_16x16.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\styles\bootstrap\wells.less" />
+    <Content Include="Content\styles\bootstrap\variables.less" />
+    <Content Include="Content\styles\bootstrap\utilities.less" />
+    <Content Include="Content\styles\bootstrap\type.less" />
+    <Content Include="Content\styles\bootstrap\tooltip.less" />
+    <Content Include="Content\styles\bootstrap\thumbnails.less" />
+    <Content Include="Content\styles\bootstrap\theme.less" />
+    <Content Include="Content\styles\bootstrap\tables.less" />
+    <Content Include="Content\styles\bootstrap\scaffolding.less" />
+    <Content Include="Content\styles\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\styles\bootstrap\progress-bars.less" />
+    <Content Include="Content\styles\bootstrap\print.less" />
+    <Content Include="Content\styles\bootstrap\popovers.less" />
+    <Content Include="Content\styles\bootstrap\panels.less" />
+    <Content Include="Content\styles\bootstrap\pagination.less" />
+    <Content Include="Content\styles\bootstrap\pager.less" />
+    <Content Include="Content\styles\bootstrap\normalize.less" />
+    <Content Include="Content\styles\bootstrap\navs.less" />
+    <Content Include="Content\styles\bootstrap\navbar.less" />
+    <Content Include="Content\styles\bootstrap\modals.less" />
+    <Content Include="Content\styles\bootstrap\mixins.less" />
+    <Content Include="Content\styles\bootstrap\media.less" />
+    <Content Include="Content\styles\bootstrap\list-group.less" />
+    <Content Include="Content\styles\bootstrap\labels.less" />
+    <Content Include="Content\styles\bootstrap\jumbotron.less" />
+    <Content Include="Content\styles\bootstrap\input-groups.less" />
+    <Content Include="Content\styles\bootstrap\grid.less" />
+    <Content Include="Content\styles\bootstrap\glyphicons.less" />
+    <Content Include="Content\styles\bootstrap\forms.less" />
+    <Content Include="Content\styles\bootstrap\dropdowns.less" />
+    <Content Include="Content\styles\bootstrap\component-animations.less" />
+    <Content Include="Content\styles\bootstrap\code.less" />
+    <Content Include="Content\styles\bootstrap\close.less" />
+    <Content Include="Content\styles\bootstrap\carousel.less" />
+    <Content Include="Content\styles\bootstrap\buttons.less" />
+    <Content Include="Content\styles\bootstrap\button-groups.less" />
+    <Content Include="Content\styles\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\styles\bootstrap\bootstrap.less" />
+    <Content Include="Content\styles\bootstrap\badges.less" />
+    <Content Include="Content\styles\bootstrap\alerts.less" />
+    <Content Include="Content\styles\mixins.less" />
+    <Content Include="Content\styles\layout.less" />
+    <Content Include="Content\styles\main.less" />
+    <Content Include="Content\styles\reset.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="googlef7764b3963b2f0d9.html" />
     <Content Include="LuxuryPeacockSmall.ico" />
@@ -208,6 +255,8 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.18.custom.min.js" />
     <Content Include="Scripts\jquery.smooth-scroll.min.js" />
+    <Content Include="Scripts\less-1.5.1.js" />
+    <Content Include="Scripts\less-1.5.1.min.js" />
     <Content Include="Scripts\lightbox.js" />
     <Content Include="Scripts\tinymce\license.txt" />
     <Content Include="Scripts\tinymce\plugins\advlist\plugin.min.js" />
