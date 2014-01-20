@@ -128,6 +128,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\bootstrap\bootstrap.css">
+      <DependentUpon>bootstrap.less</DependentUpon>
+    </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\302 ProductPage\302 Logo.gif" />
     <Content Include="Content\Images\302 ProductPage\302SKINCARE.jpg" />
@@ -194,62 +197,80 @@
     <Content Include="Content\lightbox.css" />
     <Content Include="Content\StyleSheetCustom.css" />
     <Content Include="Content\Images\Wallpaper-Blue.jpg" />
+    <Content Include="Content\styles\layout.css">
+      <DependentUpon>layout.less</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\layout.min.css">
+      <DependentUpon>layout.css</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\main.css">
+      <DependentUpon>main.less</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\mixins.css">
+      <DependentUpon>mixins.less</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="favicon_16x16.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\styles\bootstrap\wells.less" />
-    <Content Include="Content\styles\bootstrap\variables.less" />
-    <Content Include="Content\styles\bootstrap\utilities.less" />
-    <Content Include="Content\styles\bootstrap\type.less" />
-    <Content Include="Content\styles\bootstrap\tooltip.less" />
-    <Content Include="Content\styles\bootstrap\thumbnails.less" />
-    <Content Include="Content\styles\bootstrap\theme.less" />
-    <Content Include="Content\styles\bootstrap\tables.less" />
-    <Content Include="Content\styles\bootstrap\scaffolding.less" />
-    <Content Include="Content\styles\bootstrap\responsive-utilities.less" />
-    <Content Include="Content\styles\bootstrap\progress-bars.less" />
-    <Content Include="Content\styles\bootstrap\print.less" />
-    <Content Include="Content\styles\bootstrap\popovers.less" />
-    <Content Include="Content\styles\bootstrap\panels.less" />
-    <Content Include="Content\styles\bootstrap\pagination.less" />
-    <Content Include="Content\styles\bootstrap\pager.less" />
-    <Content Include="Content\styles\bootstrap\normalize.less" />
-    <Content Include="Content\styles\bootstrap\navs.less" />
-    <Content Include="Content\styles\bootstrap\navbar.less" />
-    <Content Include="Content\styles\bootstrap\modals.less" />
-    <Content Include="Content\styles\bootstrap\mixins.less" />
-    <Content Include="Content\styles\bootstrap\media.less" />
-    <Content Include="Content\styles\bootstrap\list-group.less" />
-    <Content Include="Content\styles\bootstrap\labels.less" />
-    <Content Include="Content\styles\bootstrap\jumbotron.less" />
-    <Content Include="Content\styles\bootstrap\input-groups.less" />
-    <Content Include="Content\styles\bootstrap\grid.less" />
-    <Content Include="Content\styles\bootstrap\glyphicons.less" />
-    <Content Include="Content\styles\bootstrap\forms.less" />
-    <Content Include="Content\styles\bootstrap\dropdowns.less" />
-    <Content Include="Content\styles\bootstrap\component-animations.less" />
-    <Content Include="Content\styles\bootstrap\code.less" />
-    <Content Include="Content\styles\bootstrap\close.less" />
-    <Content Include="Content\styles\bootstrap\carousel.less" />
-    <Content Include="Content\styles\bootstrap\buttons.less" />
-    <Content Include="Content\styles\bootstrap\button-groups.less" />
-    <Content Include="Content\styles\bootstrap\breadcrumbs.less" />
-    <Content Include="Content\styles\bootstrap\bootstrap.less" />
-    <Content Include="Content\styles\bootstrap\badges.less" />
-    <Content Include="Content\styles\bootstrap\alerts.less" />
     <Content Include="Content\styles\mixins.less" />
     <Content Include="Content\styles\layout.less" />
     <Content Include="Content\styles\main.less" />
     <Content Include="Content\styles\reset.less" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\wells.less" />
+    <Content Include="Content\bootstrap\variables.less" />
+    <Content Include="Content\bootstrap\utilities.less" />
+    <Content Include="Content\bootstrap\type.less" />
+    <Content Include="Content\bootstrap\tooltip.less" />
+    <Content Include="Content\bootstrap\thumbnails.less" />
+    <Content Include="Content\bootstrap\theme.less" />
+    <Content Include="Content\bootstrap\tables.less" />
+    <Content Include="Content\bootstrap\scaffolding.less" />
+    <Content Include="Content\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\bootstrap\progress-bars.less" />
+    <Content Include="Content\bootstrap\print.less" />
+    <Content Include="Content\bootstrap\popovers.less" />
+    <Content Include="Content\bootstrap\panels.less" />
+    <Content Include="Content\bootstrap\pagination.less" />
+    <Content Include="Content\bootstrap\pager.less" />
+    <Content Include="Content\bootstrap\normalize.less" />
+    <Content Include="Content\bootstrap\navs.less" />
+    <Content Include="Content\bootstrap\navbar.less" />
+    <Content Include="Content\bootstrap\modals.less" />
+    <Content Include="Content\bootstrap\mixins.less" />
+    <Content Include="Content\bootstrap\media.less" />
+    <Content Include="Content\bootstrap\list-group.less" />
+    <Content Include="Content\bootstrap\labels.less" />
+    <Content Include="Content\bootstrap\jumbotron.less" />
+    <Content Include="Content\bootstrap\input-groups.less" />
+    <Content Include="Content\bootstrap\grid.less" />
+    <Content Include="Content\bootstrap\glyphicons.less" />
+    <Content Include="Content\bootstrap\forms.less" />
+    <Content Include="Content\bootstrap\dropdowns.less" />
+    <Content Include="Content\bootstrap\component-animations.less" />
+    <Content Include="Content\bootstrap\code.less" />
+    <Content Include="Content\bootstrap\close.less" />
+    <Content Include="Content\bootstrap\carousel.less" />
+    <Content Include="Content\bootstrap\buttons.less" />
+    <Content Include="Content\bootstrap\button-groups.less" />
+    <Content Include="Content\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\bootstrap\bootstrap.less" />
+    <Content Include="Content\bootstrap\badges.less" />
+    <Content Include="Content\bootstrap\alerts.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="googlef7764b3963b2f0d9.html" />
     <Content Include="LuxuryPeacockSmall.ico" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\custom\IndexScript.js" />
     <Content Include="Scripts\jquery-1.7.2.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />

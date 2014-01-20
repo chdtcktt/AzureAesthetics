@@ -7,104 +7,81 @@
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
 
-<script src="~/Scripts/custom/IndexScript.js"></script>
 
-<div class="boxes">
-    <div id="left-box" class="white-container">
-
-
-        <h4>Hours of Operation</h4>
-        Monday: By Appointment<br />
-        Tuesday: 9am - 5pm<br />
-        Wednesday: 9am - 5pm<br />
-        Thursday: 9am - 5pm<br />
-        Friday: 9am - 4pm<br />
-        Saturday: By Appointment<br />
-        Sunday: CLOSED<br />
-
-    </div>
-
-    <div id="right-box" class="white-container">
-        <p>My goal at Azure is for you to find a skin care technician who is passionate, informed and observant. I believe that visible skin regeneration needs powerful directed tools that inspire a natural sustainable response that you can continue at home.  It’s my belief beautiful skin doesn't come from overuse or over-sale of products of any kind. I believe in viewing the skin and body as an environment which we must protect, restore and not harm with artificial chemicals, aggressive acids or artificial colors.
-            </p>
-            <p> Skin care is problem solving, and one size doesn't fit all, professional skin care is an art and at Azure your skin is our obsession.
-        </p>
-            <br/>
+<section class="main-container">
+    <h3>Hours of Operation</h3>
+    Monday: By Appointment
+    Tuesday: 9am - 5pm
+    Wednesday: 9am - 5pm
+    Thursday: 9am - 5pm
+    Friday: 9am - 4pm
+    Saturday: By Appointment
+    Sunday: CLOSED
+    <p>
+        My goal at Azure is for you to find a skin care technician who is passionate, informed and observant. I believe that visible skin regeneration needs powerful directed tools that inspire a natural sustainable response that you can continue at home.  It’s my belief beautiful skin doesn't come from overuse or over-sale of products of any kind. I believe in viewing the skin and body as an environment which we must protect, restore and not harm with artificial chemicals, aggressive acids or artificial colors.
+    </p>
+    <p>
+        Skin care is problem solving, and one size doesn't fit all, professional skin care is an art and at Azure your skin is our obsession.
+    </p>
 
 
-        <div class="text-center">
-            <h4>Find Us</h4>
-            2310 N Cherry St 100<br />
-            Spokane Valley, WA 99216<br />
-            Located in the beautiful and peaceful surroundings of Pinestone.<br />
-            Head up Cherry Street and take a left in the upper lot marked 2312/2314.
-        </div>
 
 
-        @*<br />
+    <h3>Find Us</h3>
+    2310 N Cherry St 100
+    Spokane Valley, WA 99216
+    Located in the beautiful and peaceful surroundings of Pinestone.
+    Head up Cherry Street and take a left in the upper lot marked 2312/2314.
+
+    @*<br />
         <iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=2310+N+Cherry+Ste.+100+Spokane+Valley,+WA+99216&amp;ie=UTF8&amp;hq=&amp;hnear=2310+N+Cherry+St+%23100,+Spokane+Valley,+Washington+99216&amp;gl=us&amp;t=m&amp;ll=47.681396,-117.236309&amp;spn=0.027737,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
         <small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=2310+N+Cherry+Ste.+100+Spokane+Valley,+WA+99216&amp;ie=UTF8&amp;hq=&amp;hnear=2310+N+Cherry+St+%23100,+Spokane+Valley,+Washington+99216&amp;gl=us&amp;t=m&amp;ll=47.681396,-117.236309&amp;spn=0.027737,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" style="color: #0000FF; text-align: left">View Larger Map</a></small>*@
 
 
 
+    <h3>Online Booking</h3>
+    <a href="https://www.bookfresh.com/index.html?id=2d88f1dc4a56d87f561b57e2c2626023&wi=3&view=button_dispatcher" target="_blank">
+        <input type="button" class="btn btn-primary" value="Schedule an Appointment!" />
+    </a>
 
-    </div>
-    <div class="white-container leftbottom-box">
 
-        <h4>Online Booking</h4>
-        <button class="btn btn-primary" id="BookingButton" >Schedule an Appointment!</button>
-       
-
-    </div>
-
-    <div class="white-container leftbottom-box">
-        <h4>Contact</h4>
-        (509) 217-7552<br />
-        <a href="mailto:info@azure-aesthetics.com">info@azure-aesthetics.com</a><br />
+    <h3>Contact</h3>
+    (509) 217-7552
+    <a href="mailto:info@azure-aesthetics.com">info@azure-aesthetics.com</a>
 
 
 
 
 
-        *It's best to call or make an appointment before stopping by on Saturdays, to ensure someone will be available to help you.<br />
-        **If you need an appointment time other than stated above, feel free to ask and we will do our best to accommodate your needs.<br />
+    *It's best to call or make an appointment before stopping by on Saturdays, to ensure someone will be available to help you.<br />
+    **If you need an appointment time other than stated above, feel free to ask and we will do our best to accommodate your needs.<br />
 
 
-    </div>
-
-    <div class="white-container leftbottom-box">
-        <b>Sign up for email specials and alerts!</b>
-        <br />
-
-        @using (Html.BeginForm())
-        {
-                
-                
-            @Html.ValidationSummary()
-            @Html.TextBoxFor(x => x.Email)
-               
-               
-            <input class="btn btn-primary" type="submit" value="Subscribe" />
-             
-        }
+    @using (Html.BeginForm())
+    {
 
 
-    </div>
-
-    <div class="white-container leftbottom-box">
-        <a href="https://www.facebook.com/AzureAesthetics">
-            <img src="~/Content/Images/Facebook_Badge-copy.jpg" "/></a>
+        @Html.ValidationSummary()
+        @Html.TextBoxFor(x => x.Email)
 
 
+        <input class="btn btn-primary" type="submit" value="Subscribe" />
+
+    }
+
+    @*<a href="https://www.facebook.com/AzureAesthetics">
+            <img src="~/Content/Images/Facebook_Badge-copy.jpg" " />
+        </a>*@
 
 
-    </div>
+    <footer>
+        <small>
+            &copy; 2013, All Rights Reserved~
+
+        </small>
+    </footer>
+
     
-		<footer>
-			<small> &copy; 2013, All Rights Reserved~
+</section>
 
-			</small>
-		</footer>
-
-</div>
