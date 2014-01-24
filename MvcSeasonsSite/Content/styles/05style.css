@@ -6168,15 +6168,9 @@ body section {
   font-weight: 500;
 }
 body .layout-one {
-  background-color: #ffffff;
-  padding: 10px 10px 10px 10px;
+  background-color: #f8f8f8;
+  padding: 30px 30px 30px 30px;
   border: thin;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
   height: 1000px;
 }
 body .layout-one h3 {
