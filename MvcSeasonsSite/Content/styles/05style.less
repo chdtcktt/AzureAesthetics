@@ -1,10 +1,4 @@
-﻿/*- reset.css — resets default browser styling
-- grid.less — supplies mixins for a grid system, such as the .col(@width) mixin above
-- type.less — supplies mixins for font styling as well as @font-face rules
-- colorscheme.less — LESS variables for the design’s various colors
-- interface.less — mixins for interface features like buttons, forms, and dialogs
-- layout.less — design-specific layout of the site
-- style.less — the main stylesheet, including all of the above and adding in whatever site-specific styles are otherwise necessary*/
+﻿//import all less style sheets
 @import "../bootstrap/bootstrap.less";
 @import "01reset.less";
 @import "02variables.less";
@@ -16,13 +10,39 @@
 
 body {
     background-image: url(../Images/Wallpaper-Blue.jpg);
+    //background-image: url(../Images/background.jpg);
 
-        .layout-one {
-            background-color: @containers-backgroundcolor;
-            .border-radius;
-            .drop-shadow;
+    section {
+        //typography
+        font-family: 'Simonetta', cursive;
+        line-height: 1.2em;
+        font-weight: 500;
+        
+    }
+
+
+    .layout-one {
+        background-color: @containers-backgroundcolor;
+        padding: @layout-one-padding @layout-one-padding @layout-one-padding @layout-one-padding;
+        border:thin;
+        .border-radius(30px);
+        height: 1000px;
+
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
         }
-    
+
+        p {
+            text-align: justify;
+        }
+
+        article iframe {
+            height: 500px;
+            width: 98%;
+        }
+    }
 }
 
 

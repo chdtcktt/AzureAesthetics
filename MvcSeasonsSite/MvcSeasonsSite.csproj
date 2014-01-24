@@ -203,6 +203,9 @@
     <Content Include="Content\styles\01reset.css">
       <DependentUpon>01reset.less</DependentUpon>
     </Content>
+    <Content Include="Content\styles\02variables.css">
+      <DependentUpon>02variables.less</DependentUpon>
+    </Content>
     <Content Include="Content\styles\03mixins.css">
       <DependentUpon>03mixins.less</DependentUpon>
     </Content>
