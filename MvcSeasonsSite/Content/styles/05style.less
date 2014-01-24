@@ -7,30 +7,22 @@
 - style.less — the main stylesheet, including all of the above and adding in whatever site-specific styles are otherwise necessary*/
 @import "../bootstrap/bootstrap.less";
 @import "01reset.less";
-@import "02grid.less";
-@import "03type.less";
-@import "04colorscheme.less";
-@import "05interface.less";
-@import "06layout.less";
+@import "02variables.less";
+@import "03mixins.less";
+@import "04layout.less";
+
 
 
 
 body {
     background-image: url(../Images/Wallpaper-Blue.jpg);
 
-    section {
-        
-       
-        aside {
-                    background-color: @containers-backgroundcolor;
-
+        .layout-one {
+            background-color: @containers-backgroundcolor;
+            .border-radius;
+            .drop-shadow;
         }
-
-        article {
-                    background-color: @containers-backgroundcolor;
-
-        }
-    }
+    
 }
 
 

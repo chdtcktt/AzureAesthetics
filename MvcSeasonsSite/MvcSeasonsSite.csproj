@@ -200,41 +200,41 @@
     <Content Include="Content\lightbox.css" />
     <Content Include="Content\StyleSheetCustom.css" />
     <Content Include="Content\Images\Wallpaper-Blue.jpg" />
-    <Content Include="Content\styles\02grid.css">
-      <DependentUpon>02grid.less</DependentUpon>
+    <Content Include="Content\styles\01reset.css">
+      <DependentUpon>01reset.less</DependentUpon>
     </Content>
-    <Content Include="Content\styles\03type.css">
-      <DependentUpon>03type.less</DependentUpon>
-    </Content>
-    <Content Include="Content\styles\03type.min.css">
-      <DependentUpon>03type.css</DependentUpon>
+    <Content Include="Content\styles\03mixins.css">
+      <DependentUpon>03mixins.less</DependentUpon>
     </Content>
     <Content Include="Content\styles\04colorscheme.css">
-      <DependentUpon>04colorscheme.less</DependentUpon>
+      <DependentUpon>02variables.less</DependentUpon>
     </Content>
     <Content Include="Content\styles\04colorscheme.min.css">
       <DependentUpon>04colorscheme.css</DependentUpon>
     </Content>
-    <Content Include="Content\styles\05interface.css">
-      <DependentUpon>05interface.less</DependentUpon>
+    <Content Include="Content\styles\04layout.css">
+      <DependentUpon>04layout.less</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\04layout.min.css">
+      <DependentUpon>04layout.css</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\05style.css">
+      <DependentUpon>05style.less</DependentUpon>
+    </Content>
+    <Content Include="Content\styles\05style.min.css">
+      <DependentUpon>05style.css</DependentUpon>
     </Content>
     <Content Include="Content\styles\06layout.css">
-      <DependentUpon>06layout.less</DependentUpon>
+      <DependentUpon>04layout.less</DependentUpon>
     </Content>
     <Content Include="Content\styles\06layout.min.css">
       <DependentUpon>06layout.css</DependentUpon>
     </Content>
     <Content Include="Content\styles\07style.css">
-      <DependentUpon>07style.less</DependentUpon>
+      <DependentUpon>05style.less</DependentUpon>
     </Content>
     <Content Include="Content\styles\07style.min.css">
       <DependentUpon>07style.css</DependentUpon>
-    </Content>
-    <Content Include="Content\styles\layout.css">
-      <DependentUpon>02grid.less</DependentUpon>
-    </Content>
-    <Content Include="Content\styles\layout.min.css">
-      <DependentUpon>layout.css</DependentUpon>
     </Content>
     <Content Include="Content\styles\reset.css">
       <DependentUpon>01reset.less</DependentUpon>
@@ -243,7 +243,6 @@
     <Content Include="favicon_16x16.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\styles\02grid.less" />
     <Content Include="Content\styles\01reset.less" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -291,11 +290,10 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
-    <Content Include="Content\styles\03type.less" />
-    <Content Include="Content\styles\04colorscheme.less" />
-    <Content Include="Content\styles\05interface.less" />
-    <Content Include="Content\styles\06layout.less" />
-    <Content Include="Content\styles\07style.less" />
+    <Content Include="Content\styles\02variables.less" />
+    <Content Include="Content\styles\04layout.less" />
+    <Content Include="Content\styles\05style.less" />
+    <Content Include="Content\styles\03mixins.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="googlef7764b3963b2f0d9.html" />
     <Content Include="LuxuryPeacockSmall.ico" />
