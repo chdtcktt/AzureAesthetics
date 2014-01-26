@@ -145,6 +145,7 @@
     <Content Include="Content\Images\302 ProductPage\RainForestLarge.jpg" />
     <Content Include="Content\Images\302 ProductPage\RainForestSmall.jpg" />
     <Content Include="Content\Images\Albino_peacock.jpg" />
+    <Content Include="Content\Images\azurelogo.jpg" />
     <Content Include="Content\Images\backgroun-tile.jpg" />
     <Content Include="Content\Images\background.jpg" />
     <Content Include="Content\Images\bannerwithlogo.jpg" />
@@ -188,6 +189,15 @@
     <Content Include="Content\Images\next.png" />
     <Content Include="Content\Images\NutraluxLash\nutraluxe.jpg" />
     <Content Include="Content\Images\prev.png" />
+    <Content Include="Content\Images\storepics\20131130_121237.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121251.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121256.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121330.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121339.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121357.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121428.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121436.jpg" />
+    <Content Include="Content\Images\storepics\20131130_121459.jpg" />
     <Content Include="Content\Images\Tint Services\Tintphotosbandafter.jpg" />
     <Content Include="Content\Images\Tint Services\Tintphotosbandafter1.jpg" />
     <Content Include="Content\Images\Tint Services\Tintphotosbandafter1_Large.jpg" />

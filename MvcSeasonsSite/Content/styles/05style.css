@@ -6151,30 +6151,96 @@ table {
   margin: 0 auto;
 }
 .layout-one aside {
-  width: 23%;
   float: left;
+  width: 23%;
   margin-right: 2%;
+  border-right: thick;
 }
 .layout-one article {
   float: right;
   width: 75%;
 }
+.layout-one h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 800px) {
+  nav {
+    clear: both;
+    margin: 0;
+  }
+  article {
+    clear: both;
+    margin: 0;
+    overflow: auto;
+  }
+  .extra {
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  section {
+    clear: both;
+    margin: 0;
+    overflow: auto;
+  }
+}
 body {
-  background-image: url(../Images/Wallpaper-Blue.jpg);
+  background-image: url(../Images/white-washed-grunge-patterns-10.jpg);
+  background-position: bottom;
+}
+body h1,
+body h2,
+body h3,
+body h4 {
+  font-family: 'Italianno', cursive;
+}
+body header {
+  height: 250px;
+  background-color: white;
+}
+body header h1 {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2%;
+  text-align: center;
+  font-size: 8em;
+  color: black;
+}
+body header h2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
+}
+body #bs-example-navbar-collapse-1 {
+  width: 80%;
+  margin: 0 auto;
+}
+body #bs-example-navbar-collapse-1 .navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background-color: none;
 }
 body section {
   font-family: 'Simonetta', cursive;
   line-height: 1.2em;
   font-weight: 500;
 }
+body .carousel-inner {
+  background-color: black;
+}
+body .carousel-inner img {
+  width: 60%;
+  margin: 0 auto;
+}
 body .layout-one {
-  background-color: #f8f8f8;
   padding: 30px 30px 30px 30px;
   border: thin;
-  height: 1000px;
 }
 body .layout-one h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 body .layout-one p {
@@ -6183,4 +6249,22 @@ body .layout-one p {
 body .layout-one article iframe {
   height: 500px;
   width: 98%;
+}
+body .layout-one section {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+body .layout-one section blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+body .layout-one #main-slide {
+  margin-bottom: 20px;
 }

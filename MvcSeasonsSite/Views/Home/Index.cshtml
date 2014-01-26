@@ -8,85 +8,128 @@
 }
 
 
+
+
 <section class="main-container layout-one">
     
+    @*<section id="main-slide">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="../../Content/Images/storepics/20131130_121237.jpg" alt="" />
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <img src="../../Content/Images/storepics/20131130_121251.jpg" alt="" />
+                    <div class="carousel-caption">
+                        Caption
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>*@
+
+
+    
     <aside>
-        <h3>Hours of Operation</h3>
-        <ul>
-            <li>Monday: By Appointment</li>
-            <li>Tuesday: 9am - 5pm</li>
-            <li>Wednesday: 9am - 5pm</li>
-            <li>Thursday: 9am - 5pm</li>
-            <li>Friday: 9am - 4pm</li>
-            <li>Saturday: By Appointment</li>
-            <li>Sunday: CLOSED</li>
-        </ul>
-        
-        <hr/>
-        
-        <h3>Online Booking</h3>
-        <a href="https://www.bookfresh.com/index.html?id=2d88f1dc4a56d87f561b57e2c2626023&wi=3&view=button_dispatcher" target="_blank">
-            <input type="button" class="btn btn-primary" value="Schedule an Appointment!" />
-        </a>
-        
-        <hr/>
-        
-        
+        <section>
+            <h3>Hours of Operation</h3>
+            <ul>
+                <li>Monday: By Appointment</li>
+                <li>Tuesday: 9am - 5pm</li>
+                <li>Wednesday: 9am - 5pm</li>
+                <li>Thursday: 9am - 5pm</li>
+                <li>Friday: 9am - 4pm</li>
+                <li>Saturday: By Appointment</li>
+                <li>Sunday: CLOSED</li>
+            </ul>
+        </section>
+      
+        <section>
+            <h3>Online Booking</h3>
+            <a href="https://www.bookfresh.com/index.html?id=2d88f1dc4a56d87f561b57e2c2626023&wi=3&view=button_dispatcher" target="_blank">
+                <input type="button" class="btn btn-primary" value="Schedule an Appointment!" />
+            </a>
+        </section>
+       
+        <section>
+            <h3>Contact</h3>
+            (509) 217-7552
+            <a href="mailto:info@azure-aesthetics.com">info@azure-aesthetics.com</a>
 
-        <h3>Contact</h3>
-        (509) 217-7552
-        <a href="mailto:info@azure-aesthetics.com">info@azure-aesthetics.com</a>
+
+            <p>*It's best to call or make an appointment before stopping by on Saturdays, to ensure someone will be available to help you.</p>
+            <p>**If you need an appointment time other than stated above, feel free to ask and we will do our best to accommodate your needs.</p>
+        </section>
+        
+        <section>
+            <h3>Get on our mailing list!</h3>
+            @using (Html.BeginForm())
+            {
 
 
-        <p>*It's best to call or make an appointment before stopping by on Saturdays, to ensure someone will be available to help you.</p>
-        <p>**If you need an appointment time other than stated above, feel free to ask and we will do our best to accommodate your needs.</p>
+                @Html.ValidationSummary()
+                @Html.TextBoxFor(x => x.Email)
+                <br />
+                <br />
 
-        
-        
-        
+                <input class="btn btn-primary" type="submit" value="Submit" />
+
+            }
+        </section>
+ 
     </aside>
 
 
     <article>
-        <h3>About Us</h3>
-        <p>
-            My goal at Azure is for you to find a skin care technician who is passionate, informed and observant.
-            I believe that visible skin regeneration needs powerful directed tools that inspire a natural sustainable response that you can continue at home.
-            It’s my belief beautiful skin doesn't come from overuse or over-sale of products of any kind. I believe in viewing the skin and body as an environment
-            which we must protect, restore and not harm with artificial chemicals, aggressive acids or artificial colors.
-            Skin care is problem solving, and one size doesn't fit all, professional skin care is an art and at Azure your skin is our obsession.
+        <section>
+            <h3>About Us</h3>
+            <p>
+                My goal at Azure is for you to find a skin care technician who is passionate, informed and observant.
+                I believe that visible skin regeneration needs powerful directed tools that inspire a natural sustainable response that you can continue at home.
+                It’s my belief beautiful skin doesn't come from overuse or over-sale of products of any kind. I believe in viewing the skin and body as an environment
+                which we must protect, restore and not harm with artificial chemicals, aggressive acids or artificial colors.
+                Skin care is problem solving, and one size doesn't fit all, professional skin care is an art and at Azure your skin is our obsession.
 
-        </p>
-        <hr/>
+            </p>
+        </section>
+       
+        <section>
+            <h3>Find Us</h3>
+            2310 N Cherry St 100
+            Spokane Valley, WA 99216
+            Located in the beautiful and peaceful surroundings of Pinestone.
+            Head up Cherry Street and take a left in the upper lot marked 2312/2314.
 
-
-        <h3>Find Us</h3>
-        2310 N Cherry St 100
-        Spokane Valley, WA 99216
-        Located in the beautiful and peaceful surroundings of Pinestone.
-        Head up Cherry Street and take a left in the upper lot marked 2312/2314.
-
-        <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=2310+N+Cherry+Ste.+100+Spokane+Valley,+WA+99216&amp;ie=UTF8&amp;hq=&amp;hnear=2310+N+Cherry+St+%23100,+Spokane+Valley,+Washington+99216&amp;gl=us&amp;t=m&amp;ll=47.681396,-117.236309&amp;spn=0.027737,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-        <small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=2310+N+Cherry+Ste.+100+Spokane+Valley,+WA+99216&amp;ie=UTF8&amp;hq=&amp;hnear=2310+N+Cherry+St+%23100,+Spokane+Valley,+Washington+99216&amp;gl=us&amp;t=m&amp;ll=47.681396,-117.236309&amp;spn=0.027737,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" style="color: #0000FF; text-align: left">View Larger Map</a></small>
-
-
-
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=2310+N+Cherry+Ste.+100+Spokane+Valley,+WA+99216&amp;ie=UTF8&amp;hq=&amp;hnear=2310+N+Cherry+St+%23100,+Spokane+Valley,+Washington+99216&amp;gl=us&amp;t=m&amp;ll=47.681396,-117.236309&amp;spn=0.027737,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+            <small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=2310+N+Cherry+Ste.+100+Spokane+Valley,+WA+99216&amp;ie=UTF8&amp;hq=&amp;hnear=2310+N+Cherry+St+%23100,+Spokane+Valley,+Washington+99216&amp;gl=us&amp;t=m&amp;ll=47.681396,-117.236309&amp;spn=0.027737,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" style="color: #0000FF; text-align: left">View Larger Map</a></small>
+        </section>
+      
     </article>
 
 
 
 
-    @using (Html.BeginForm())
-    {
-
-
-        @Html.ValidationSummary()
-        @Html.TextBoxFor(x => x.Email)
-
-
-        <input class="btn btn-primary" type="submit" value="Subscribe" />
-
-    }
 
     @*<a href="https://www.facebook.com/AzureAesthetics">
             <img src="~/Content/Images/Facebook_Badge-copy.jpg" " />
@@ -100,6 +143,6 @@
         </small>
     </footer>
 
-    
+
 </section>
 

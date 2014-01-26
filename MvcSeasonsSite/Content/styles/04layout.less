@@ -10,15 +10,50 @@
 .layout-one {
 
     aside {
-        width: 23%;
         float: left;
+        width: 23%;
         margin-right: 2%;
+        border-right: thick;
     }
 
+
     article {
-        float: right;
+        float:right;
         width: 75%;
+
+    }
+
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 }
 
 
+/* RESPONSIVE */
+
+@media screen and (max-width: 800px) {
+
+    nav {
+        clear: both;
+        margin: 0;
+    }
+
+    article {
+        clear: both;
+        margin: 0;
+        overflow: auto;
+    }
+
+    .extra {
+        clear: both;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    section {
+        clear: both;
+        margin: 0;
+        overflow: auto;
+    }
+}

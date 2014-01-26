@@ -6,31 +6,76 @@
 @import "04layout.less";
 
 
-
-
 body {
-    background-image: url(../Images/Wallpaper-Blue.jpg);
-    //background-image: url(../Images/background.jpg);
+    //background-image: url(../Images/blue-wallpaper.jpg);
+    background-image: url(../Images/white-washed-grunge-patterns-10.jpg);
+    background-position: bottom;
+
+    h1, h2, h3, h4 {
+        font-family: 'Italianno', cursive;
+    }
+
+    header {
+        height: 250px;
+        background-color: white;
+
+        h1 {
+            .main-container;
+            padding-top: 2%;
+            text-align: center;
+            font-size: 8em;
+            color: black;
+        }
+
+        h2 {
+            .main-container;
+            text-align: center;
+            font-size: 3em;
+
+
+        }
+    }
+
+    #bs-example-navbar-collapse-1 {
+        .main-container;
+
+        .navbar {
+            border-radius: 0px;
+            margin-bottom: 0px;
+            background-color: none;
+        }
+    }
+
+
+
+
 
     section {
         //typography
         font-family: 'Simonetta', cursive;
         line-height: 1.2em;
         font-weight: 500;
-        
     }
 
 
-    .layout-one {
-        background-color: @containers-backgroundcolor;
-        padding: @layout-one-padding @layout-one-padding @layout-one-padding @layout-one-padding;
-        border:thin;
-        //.border-radius(30px);
-        height: 1000px;
+    .carousel-inner {
+        img {
+            width: 60%;
+            margin: 0 auto;
+        }
 
+        background-color: black;
+    }
+
+
+
+
+    .layout-one {
+        padding: @layout-one-padding @layout-one-padding @layout-one-padding @layout-one-padding;
+        border: thin;
 
         h3 {
-            font-size: 1.5em;
+            font-size: 2em;
             margin-bottom: 20px;
         }
 
@@ -42,8 +87,14 @@ body {
             height: 500px;
             width: 98%;
         }
+
+        section {
+            .well;
+        }
+
+
+        #main-slide {
+            margin-bottom: 20px;
+        }
     }
 }
-
-
-   
