@@ -158,6 +158,7 @@
     <Content Include="Content\Images\Bioslimming\2ACTIVESLIMcream.jpg" />
     <Content Include="Content\Images\Bioslimming\3ULTRASLIMEFFECT.jpg" />
     <Content Include="Content\Images\Bioslimming\bioslimming.jpg" />
+    <Content Include="Content\Images\blue-wallpaper.jpg" />
     <Content Include="Content\Images\Body Bronzing\beacheverytime.jpg" />
     <Content Include="Content\Images\Body Bronzing\NorvellVenetianBNA.gif" />
     <Content Include="Content\Images\Body Bronzing\shedding light.jpg" />
@@ -184,6 +185,7 @@
     <Content Include="Content\Images\lipolaser\LipoLaserw1.jpg" />
     <Content Include="Content\Images\lipolaser\LipoLaserw2.jpg" />
     <Content Include="Content\Images\loading.gif" />
+    <Content Include="Content\Images\azure-logo.jpg" />
     <Content Include="Content\Images\Menu\Menu_Inside062013.jpg" />
     <Content Include="Content\Images\Menu\Menu_Outside062013.jpg" />
     <Content Include="Content\Images\next.png" />
@@ -205,6 +207,7 @@
     <Content Include="Content\Images\UC\page-under-construction1.jpg" />
     <Content Include="Content\Images\WaxServices\wax female.jpg" />
     <Content Include="Content\Images\WaxServices\waxmalephoto.png" />
+    <Content Include="Content\Images\white-washed-grunge-patterns-10.jpg" />
     <Content Include="Content\Images\WholeBodyVibrations\wbvlarge.jpg" />
     <Content Include="Content\Images\WholeBodyVibrations\wbvsmall.jpg" />
     <Content Include="Content\lightbox.css" />

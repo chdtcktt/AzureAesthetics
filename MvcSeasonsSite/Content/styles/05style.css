@@ -6188,31 +6188,24 @@ table {
 }
 body {
   background-image: url(../Images/white-washed-grunge-patterns-10.jpg);
-  background-position: bottom;
 }
 body h1,
-body h2,
+body h2 {
+  visibility: hidden;
+}
 body h3,
 body h4 {
   font-family: 'Italianno', cursive;
 }
 body header {
-  height: 250px;
   background-color: white;
 }
-body header h1 {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 2%;
-  text-align: center;
-  font-size: 8em;
-  color: black;
-}
-body header h2 {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 3em;
+body header img {
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 4%;
+  padding-left: 20%;
+  width: 75%;
 }
 body #bs-example-navbar-collapse-1 {
   width: 80%;
@@ -6222,6 +6215,13 @@ body #bs-example-navbar-collapse-1 .navbar {
   border-radius: 0px;
   margin-bottom: 0px;
   background-color: none;
+}
+body .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+body .navbar .navbar-collapse {
+  text-align: center;
 }
 body section {
   font-family: 'Simonetta', cursive;
