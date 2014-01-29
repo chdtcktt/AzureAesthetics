@@ -6318,6 +6318,7 @@ body .layout-two #title blockquote {
 }
 body .layout-two #title h3 {
   font-size: 2.5em;
+  margin-bottom: 20px;
 }
 body .layout-two #pricing {
   min-height: 20px;
