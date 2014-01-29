@@ -6274,7 +6274,7 @@ body .layout-one p {
   text-align: justify;
 }
 body .layout-one article iframe {
-  height: 270px;
+  height: 400px;
   width: 98%;
 }
 body .layout-one section {
@@ -6294,6 +6294,9 @@ body .layout-one section blockquote {
 }
 body .layout-one section img {
   width: 100%;
+}
+body .layout-one section .carousel-inner img {
+  width: 70%;
 }
 body .layout-one #main-slide {
   margin-bottom: 20px;
