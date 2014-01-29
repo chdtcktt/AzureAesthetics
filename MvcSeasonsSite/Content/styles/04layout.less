@@ -3,34 +3,37 @@
 .main-container {
     width: 80%;
     margin: 0 auto;
- 
 }
 
 //layout for home page
 .layout-one {
+    .main-container;
 
     aside {
         float: left;
         width: 23%;
         margin-right: 2%;
-        
     }
 
 
     article {
-        float:right;
+        float: right;
         width: 75%;
-
     }
 }
 
 
-/* RESPONSIVE */
+//single column layout for pages with pricing and desc
+.layout-two {
+    .main-container;
+}
 
+
+//responsive
 @media screen and (max-width: 767px) {
 
 
-    aside  {
+    aside {
         min-width: 100%;
         //float:left;
     }

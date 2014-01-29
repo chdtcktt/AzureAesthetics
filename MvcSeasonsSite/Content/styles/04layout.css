@@ -2,6 +2,10 @@
   width: 80%;
   margin: 0 auto;
 }
+.layout-one {
+  width: 80%;
+  margin: 0 auto;
+}
 .layout-one aside {
   float: left;
   width: 23%;
@@ -11,7 +15,10 @@
   float: right;
   width: 75%;
 }
-/* RESPONSIVE */
+.layout-two {
+  width: 80%;
+  margin: 0 auto;
+}
 @media screen and (max-width: 767px) {
   aside {
     min-width: 100%;

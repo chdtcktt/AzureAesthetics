@@ -1,1 +1,1 @@
-﻿.main-container{width:80%;margin:0 auto}.layout-one aside{float:left;width:23%;margin-right:2%}.layout-one article{float:right;width:75%}@media screen and (max-width:767px){aside{min-width:100%}article{min-width:100%}}
+﻿.main-container{width:80%;margin:0 auto}.layout-one{width:80%;margin:0 auto}.layout-one aside{float:left;width:23%;margin-right:2%}.layout-one article{float:right;width:75%}.layout-two{width:80%;margin:0 auto}@media screen and (max-width:767px){aside{min-width:100%}article{min-width:100%}}
