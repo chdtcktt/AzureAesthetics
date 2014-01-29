@@ -55,30 +55,6 @@ namespace MvcSeasonsSite.Controllers
 
         #endregion
 
-        #region Skin and Body
-        public ActionResult Facials() 
-        {
-            return View();
-        }
-        public ActionResult Makeup()
-        {
-            return View();
-        }
-
-        public ActionResult Body()
-        {
-            return View();
-        }
-
-        public ActionResult BodyBronzing()
-        {
-            return View();
-        }
-        public ActionResult BioslimmingWrap()
-        {
-            return View();
-        }
-        #endregion
 
         #region Wax and Tint
         public ActionResult WaxServices()

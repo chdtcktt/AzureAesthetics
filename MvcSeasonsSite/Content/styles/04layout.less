@@ -13,7 +13,7 @@
         float: left;
         width: 23%;
         margin-right: 2%;
-        border-right: thick;
+        
     }
 
 
@@ -22,38 +22,21 @@
         width: 75%;
 
     }
-
-    h3 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
 }
 
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
 
-    nav {
-        clear: both;
-        margin: 0;
+
+    aside  {
+        min-width: 100%;
+        //float:left;
     }
 
     article {
-        clear: both;
-        margin: 0;
-        overflow: auto;
-    }
-
-    .extra {
-        clear: both;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
-
-    section {
-        clear: both;
-        margin: 0;
-        overflow: auto;
+        min-width: 100%;
+        //float:right;
     }
 }

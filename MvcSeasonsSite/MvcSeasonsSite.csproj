@@ -114,6 +114,7 @@
   <ItemGroup>
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SkinAndBodyController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -413,10 +414,8 @@
     <Content Include="Views\Home\Specials.cshtml" />
     <Content Include="Views\Home\WaxServices.cshtml" />
     <Content Include="Views\Home\TintServices.cshtml" />
-    <Content Include="Views\Home\Facials.cshtml" />
     <Content Include="Views\Home\InfaredSlimming.cshtml" />
     <Content Include="Views\Home\Thanks.cshtml" />
-    <Content Include="Views\Home\Body.cshtml" />
     <Content Include="Scripts\tinymce\langs\readme.md" />
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\icomoon.eot" />
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\icomoon.ttf" />
@@ -432,15 +431,17 @@
     <Content Include="Views\Login\AdminLogin.cshtml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
     <Content Include="Views\Home\Bioslimming.cshtml" />
-    <Content Include="Views\Home\BodyBronzing.cshtml" />
-    <Content Include="Views\Home\BioslimmingWrap.cshtml" />
     <Content Include="Views\Home\LipoLaserBNA.cshtml" />
-    <Content Include="Views\Home\Makeup.cshtml" />
     <Content Include="Views\Admin\Admin.cshtml" />
     <Content Include="Views\Admin\AdminSpecial.cshtml" />
     <Content Include="Views\Admin\AdminEmailAddress.cshtml" />
     <Content Include="Views\Admin\AdminEmailVomit.cshtml" />
     <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\SkinAndBody\Facials.cshtml" />
+    <Content Include="Views\SkinAndBody\Makeup.cshtml" />
+    <Content Include="Views\SkinAndBody\Body.cshtml" />
+    <Content Include="Views\SkinAndBody\BodyBronzing.cshtml" />
+    <Content Include="Views\SkinAndBody\BioslimmingWrap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

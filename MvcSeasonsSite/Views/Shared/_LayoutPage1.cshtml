@@ -13,9 +13,20 @@
 </head>
 <body>
     <header>
-        <a href="http://www.azure-aesthetics.com/">
+        <div id="utility">
+            <ul>
+                <li><a tel="(509) 217-7552">(509) 217-7552</a></li>
+                <li>|</li>
+                <li><a href="mailto:info@azure-aesthetics.com">info@azure-aesthetics.com</a></li>
+                <li>|</li>
+                <li><a href="https://www.bookfresh.com/index.html?id=2d88f1dc4a56d87f561b57e2c2626023&view=buyer_flow">Online Booking</a></li>
+            </ul>
+        </div>
+      
+        <a href="/">
             <img src="../../Content/Images/bannerwithlogo.jpg" alt="Azure Aesthetics" />
-        </a> 
+
+        </a>
     </header>
 
     
@@ -41,11 +52,11 @@
                         @*<b class="caret"></b>*@
                     </a>
                     <ul class="dropdown-menu">
-                        <li>@Html.ActionLink("Facials", "Facials")</li>
-                        <li>@Html.ActionLink("Makeup", "Makeup")</li>
-                        <li>@Html.ActionLink("Body Treatments", "Body")</li>
-                        <li>@Html.ActionLink("Body Bronzing", "BodyBronzing")</li>
-                        <li>@Html.ActionLink("Bioslimming Wrap", "BioslimmingWrap")</li>
+                        <li><a href="~/SkinAndBody/Facials">Facials</a></li>
+                        <li><a href="~/SkinAndBody/Makeup">Makeup</a></li>
+                        <li><a href="~/SkinAndBody/Body">Body Treatments</a></li>
+                        <li><a href="~/SkinAndBody/BodyBronzing">Body Bronzing</a></li>
+                        <li><a href="~/SkinAndBody/BioslimmingWrap">Bioslimming Wrap</a></li>
                     </ul>
                 </li>
 
@@ -102,9 +113,6 @@
                 </li>
 
                 <li class="@ViewBag.NavBarSpecialsSelection">@Html.ActionLink("SPECIALS!", "Specials")</li>
-
-
-
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>
@@ -118,6 +126,19 @@
 
     @RenderSection("scripts", required: false)
 
+    
+    
+    
+    <footer>
+        <ul>
+            <li>&copy;2013 - 2014, All Rights Reserved</li>
+            <li>|</li>
+            <li>Site by Chad Tackett</li>
+            <li>|</li>
+            <li><a href="mailto:chdtcktt@gmail.com">chdtcktt@gmail.com</a></li>
+
+        </ul>
+    </footer>
 
 
 
