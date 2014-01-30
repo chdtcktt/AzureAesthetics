@@ -6167,6 +6167,18 @@ table {
   width: 80%;
   margin: 0 auto;
 }
+.layout-three {
+  width: 80%;
+  margin: 0 auto;
+}
+.layout-three aside {
+  float: left;
+  width: 40%;
+}
+.layout-three article {
+  float: right;
+  width: 58%;
+}
 @media screen and (max-width: 767px) {
   aside {
     min-width: 100%;
@@ -6245,7 +6257,7 @@ body .carousel-inner img {
 body footer {
   display: inline-block;
   width: 100%;
-  height: 50px;
+  height: 200px;
   background-color: white;
   bottom: 0;
   text-align: center;
@@ -6274,7 +6286,7 @@ body .layout-one p {
   text-align: justify;
 }
 body .layout-one article iframe {
-  height: 400px;
+  height: 350px;
   width: 98%;
 }
 body .layout-one section {
@@ -6320,7 +6332,7 @@ body .layout-two #title blockquote {
   border-color: rgba(0, 0, 0, 0.15);
 }
 body .layout-two #title h3 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 body .layout-two #pricing {
@@ -6339,7 +6351,7 @@ body .layout-two #pricing blockquote {
   border-color: rgba(0, 0, 0, 0.15);
 }
 body .layout-two #pricing h4 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 body .layout-two #pricing table {
   width: 100%;
@@ -6417,4 +6429,153 @@ body .layout-two #pricing table > thead > .warning > th,
 body .layout-two #pricing table > tbody > .warning > th,
 body .layout-two #pricing table > tfoot > .warning > th {
   background-color: #fcf8e3;
+}
+body .layout-three h3 {
+  font-size: 2em;
+}
+body .layout-three h4 {
+  font-size: 2em;
+}
+body .layout-three h3,
+body .layout-three h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body .layout-three #title {
+  text-align: center;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+  height: 30%;
+}
+body .layout-three #title blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+body .layout-three #top-content {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+}
+body .layout-three #top-content blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+body .layout-three #top-content article #before-after-pic img {
+  width: 100%;
+}
+body .layout-three #top-content aside table {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+body .layout-three #top-content aside table > thead > tr > th,
+body .layout-three #top-content aside table > tbody > tr > th,
+body .layout-three #top-content aside table > tfoot > tr > th,
+body .layout-three #top-content aside table > thead > tr > td,
+body .layout-three #top-content aside table > tbody > tr > td,
+body .layout-three #top-content aside table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+body .layout-three #top-content aside table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+body .layout-three #top-content aside table > caption + thead > tr:first-child > th,
+body .layout-three #top-content aside table > colgroup + thead > tr:first-child > th,
+body .layout-three #top-content aside table > thead:first-child > tr:first-child > th,
+body .layout-three #top-content aside table > caption + thead > tr:first-child > td,
+body .layout-three #top-content aside table > colgroup + thead > tr:first-child > td,
+body .layout-three #top-content aside table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+body .layout-three #top-content aside table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+body .layout-three #top-content aside table .table {
+  background-color: #ffffff;
+}
+body .layout-three #top-content aside table > thead > tr > .active,
+body .layout-three #top-content aside table > tbody > tr > .active,
+body .layout-three #top-content aside table > tfoot > tr > .active,
+body .layout-three #top-content aside table > thead > .active > td,
+body .layout-three #top-content aside table > tbody > .active > td,
+body .layout-three #top-content aside table > tfoot > .active > td,
+body .layout-three #top-content aside table > thead > .active > th,
+body .layout-three #top-content aside table > tbody > .active > th,
+body .layout-three #top-content aside table > tfoot > .active > th {
+  background-color: #f5f5f5;
+}
+body .layout-three #top-content aside table > thead > tr > .success,
+body .layout-three #top-content aside table > tbody > tr > .success,
+body .layout-three #top-content aside table > tfoot > tr > .success,
+body .layout-three #top-content aside table > thead > .success > td,
+body .layout-three #top-content aside table > tbody > .success > td,
+body .layout-three #top-content aside table > tfoot > .success > td,
+body .layout-three #top-content aside table > thead > .success > th,
+body .layout-three #top-content aside table > tbody > .success > th,
+body .layout-three #top-content aside table > tfoot > .success > th {
+  background-color: #dff0d8;
+}
+body .layout-three #top-content aside table > thead > tr > .danger,
+body .layout-three #top-content aside table > tbody > tr > .danger,
+body .layout-three #top-content aside table > tfoot > tr > .danger,
+body .layout-three #top-content aside table > thead > .danger > td,
+body .layout-three #top-content aside table > tbody > .danger > td,
+body .layout-three #top-content aside table > tfoot > .danger > td,
+body .layout-three #top-content aside table > thead > .danger > th,
+body .layout-three #top-content aside table > tbody > .danger > th,
+body .layout-three #top-content aside table > tfoot > .danger > th {
+  background-color: #f2dede;
+}
+body .layout-three #top-content aside table > thead > tr > .warning,
+body .layout-three #top-content aside table > tbody > tr > .warning,
+body .layout-three #top-content aside table > tfoot > tr > .warning,
+body .layout-three #top-content aside table > thead > .warning > td,
+body .layout-three #top-content aside table > tbody > .warning > td,
+body .layout-three #top-content aside table > tfoot > .warning > td,
+body .layout-three #top-content aside table > thead > .warning > th,
+body .layout-three #top-content aside table > tbody > .warning > th,
+body .layout-three #top-content aside table > tfoot > .warning > th {
+  background-color: #fcf8e3;
+}
+body .layout-three #top-content aside li {
+  margin-bottom: 10px;
+}
+body .layout-three #top-content aside li:before {
+  content: "- ";
+}
+body .layout-three #bottom-content {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+}
+body .layout-three #bottom-content blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
 }

@@ -19,6 +19,18 @@
   width: 80%;
   margin: 0 auto;
 }
+.layout-three {
+  width: 80%;
+  margin: 0 auto;
+}
+.layout-three aside {
+  float: left;
+  width: 40%;
+}
+.layout-three article {
+  float: right;
+  width: 58%;
+}
 @media screen and (max-width: 767px) {
   aside {
     min-width: 100%;

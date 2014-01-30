@@ -89,12 +89,11 @@ body {
     footer {
         display: inline-block;
         width: 100%;
-        height: 50px;
+        height: 200px;
         background-color: white;
         bottom: 0;
         text-align: center;
         padding-top: 10px;
-
 
 
         li {
@@ -120,7 +119,7 @@ body {
 
         h3 {
             margin-bottom: 20px;
-            font-size: 2em;
+            font-size: @h3-size;
         }
 
         p {
@@ -128,7 +127,7 @@ body {
         }
 
         article iframe {
-            height: 400px;
+            height: 350px;
             width: 98%;
         }
 
@@ -162,7 +161,7 @@ body {
 
 
             h3 {
-                font-size: 2.5em;
+                font-size: @h3-size;
                 margin-bottom: 20px;
             }
         }
@@ -171,12 +170,70 @@ body {
             .well;
 
             h4 {
-                font-size: 1.5em;
+                font-size: @h4-size;
             }
 
             table {
                 .table;
             }
+        }
+    }
+
+    .layout-three {
+        h3 {
+            font-size: @h3-size;
+        }
+
+
+        h4 {
+            font-size: @h4-size;
+
+        }
+
+        h3, h4 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #title {
+            text-align: center;
+            .well;
+            margin-top: 30px;
+            height: 30%;
+        }
+
+        #top-content {
+            .well;
+            display: inline-block;
+
+            article {
+                #before-after-pic {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            aside {
+                  table {
+                    .table;
+                    margin-bottom: 50px;
+                }
+
+                li {
+                    margin-bottom: 10px;
+                }
+
+                    li:before {
+                        content: "- ";
+                    }
+            }
+        }
+
+        #bottom-content {
+            .well;
+            display: inline-block;
         }
     }
 }
