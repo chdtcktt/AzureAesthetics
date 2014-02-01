@@ -6210,8 +6210,8 @@ body header {
 body header img {
   padding-top: 1%;
   padding-bottom: 4%;
-  padding-left: 20%;
-  width: 75%;
+  padding-left: 30%;
+  width: 70%;
 }
 body header #utility {
   margin-top: 10px;
@@ -6257,7 +6257,7 @@ body .carousel-inner img {
 body footer {
   display: inline-block;
   width: 100%;
-  height: 200px;
+  height: 120px;
   background-color: white;
   bottom: 0;
   text-align: center;
@@ -6313,6 +6313,13 @@ body .layout-one section .carousel-inner img {
 body .layout-one #main-slide {
   margin-bottom: 20px;
 }
+body .layout-two h3 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+body .layout-two h4 {
+  font-size: 2em;
+}
 body .layout-two #title {
   text-align: center;
   min-height: 20px;
@@ -6331,10 +6338,6 @@ body .layout-two #title blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
-body .layout-two #title h3 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
 body .layout-two #pricing {
   min-height: 20px;
   padding: 19px;
@@ -6349,9 +6352,6 @@ body .layout-two #pricing {
 body .layout-two #pricing blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
-}
-body .layout-two #pricing h4 {
-  font-size: 2em;
 }
 body .layout-two #pricing table {
   width: 100%;
@@ -6431,7 +6431,7 @@ body .layout-two #pricing table > tfoot > .warning > th {
   background-color: #fcf8e3;
 }
 body .layout-three h3 {
-  font-size: 2em;
+  font-size: 3em;
 }
 body .layout-three h4 {
   font-size: 2em;
@@ -6441,6 +6441,9 @@ body .layout-three h4 {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+}
+body .layout-three p {
+  line-height: 20px;
 }
 body .layout-three #title {
   text-align: center;
@@ -6460,6 +6463,9 @@ body .layout-three #title blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
+body .layout-three #title img {
+  width: 100%;
+}
 body .layout-three #top-content {
   min-height: 20px;
   padding: 19px;
@@ -6476,8 +6482,18 @@ body .layout-three #top-content blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
+body .layout-three #top-content article {
+  /*li:before {
+                    content: "- ";
+                }*/
+}
 body .layout-three #top-content article #before-after-pic img {
   width: 100%;
+}
+body .layout-three #top-content aside {
+  /*li:before {
+                        content: "- ";
+                    }*/
 }
 body .layout-three #top-content aside table {
   width: 100%;
@@ -6560,8 +6576,8 @@ body .layout-three #top-content aside table > tfoot > .warning > th {
 body .layout-three #top-content aside li {
   margin-bottom: 10px;
 }
-body .layout-three #top-content aside li:before {
-  content: "- ";
+body .layout-three #top-content aside #bioslimming-pic {
+  width: 60%;
 }
 body .layout-three #bottom-content {
   min-height: 20px;
@@ -6578,4 +6594,31 @@ body .layout-three #bottom-content {
 body .layout-three #bottom-content blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
+}
+body .layout-three #bottom-content #myTabContent {
+  margin-top: 30px;
+  /*li:before {
+                        content: "- ";
+                    }*/
+}
+body .layout-three #bottom-content #myTabContent img {
+  width: 50%;
+}
+body .layout-three #bottom-content #myTabContent li {
+  margin-bottom: 10px;
+}
+body .layout-three #bottom-content #bottom-message {
+  margin-top: 20px;
+  font-weight: 900;
+}
+@media screen and (max-width: 767px) {
+  body header img {
+    padding-left: 10%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body header #utility {
+    visibility: hidden;
+    position: fixed;
+  }
 }

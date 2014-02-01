@@ -31,8 +31,8 @@ body {
         img {
             padding-top: 1%;
             padding-bottom: 4%;
-            padding-left: 20%;
-            width: 75%;
+            padding-left: 30%;
+            width: 70%;
         }
         //utility navigation
         #utility {
@@ -89,7 +89,7 @@ body {
     footer {
         display: inline-block;
         width: 100%;
-        height: 200px;
+        height: 120px;
         background-color: white;
         bottom: 0;
         text-align: center;
@@ -153,25 +153,26 @@ body {
 
 
     .layout-two {
+        h3 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: @h4-size;
+        }
+
         #title {
             text-align: center;
             .well;
             margin-top: 30px;
             height: 30%;
-
-
-            h3 {
-                font-size: @h3-size;
-                margin-bottom: 20px;
-            }
         }
 
         #pricing {
             .well;
 
-            h4 {
-                font-size: @h4-size;
-            }
+
 
             table {
                 .table;
@@ -180,15 +181,16 @@ body {
     }
 
     .layout-three {
-        h3 {
-            font-size: @h3-size;
-        }
 
+        h3 {
+            font-size: 3em;
+        }
 
         h4 {
             font-size: @h4-size;
-
         }
+
+
 
         h3, h4 {
             margin-top: 20px;
@@ -196,11 +198,19 @@ body {
             text-align: center;
         }
 
+        p {
+                line-height: 20px;
+            }
+
         #title {
             text-align: center;
             .well;
             margin-top: 30px;
             height: 30%;
+
+            img {
+                width: 100%;
+            }
         }
 
         #top-content {
@@ -208,6 +218,10 @@ body {
             display: inline-block;
 
             article {
+                /*li:before {
+                    content: "- ";
+                }*/
+
                 #before-after-pic {
                     img {
                         width: 100%;
@@ -216,7 +230,7 @@ body {
             }
 
             aside {
-                  table {
+                table {
                     .table;
                     margin-bottom: 50px;
                 }
@@ -225,15 +239,64 @@ body {
                     margin-bottom: 10px;
                 }
 
-                    li:before {
+                    /*li:before {
                         content: "- ";
-                    }
+                    }*/
+
+
+                #bioslimming-pic {
+                    width:60%;
+
+                }
             }
         }
 
         #bottom-content {
             .well;
             display: inline-block;
+
+
+            
+
+            #myTabContent {
+                margin-top: 30px;
+
+                img {
+                    width: 50%;
+                }
+
+                li {
+                    margin-bottom: 10px;
+                }
+
+                    /*li:before {
+                        content: "- ";
+                    }*/
+            }
+
+            #bottom-message {
+                margin-top: 20px;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+
+//responsive
+@media screen and (max-width: 767px) {
+    body {
+        header {
+            img {
+                padding-left: 10%;
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            #utility {
+                visibility: hidden;
+                position: fixed;
+            }
         }
     }
 }
