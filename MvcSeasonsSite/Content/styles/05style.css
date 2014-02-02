@@ -6198,11 +6198,115 @@ body h2 {
   visibility: hidden;
   position: fixed;
 }
+body h3 {
+  font-size: 3em;
+}
+body h4 {
+  font-size: 2em;
+}
 body h3,
 body h4 {
   font-family: 'Italianno', cursive;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body p {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+body table {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+body table > thead > tr > th,
+body table > tbody > tr > th,
+body table > tfoot > tr > th,
+body table > thead > tr > td,
+body table > tbody > tr > td,
+body table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+body table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+body table > caption + thead > tr:first-child > th,
+body table > colgroup + thead > tr:first-child > th,
+body table > thead:first-child > tr:first-child > th,
+body table > caption + thead > tr:first-child > td,
+body table > colgroup + thead > tr:first-child > td,
+body table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+body table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+body table .table {
+  background-color: #ffffff;
+}
+body table > thead > tr > .active,
+body table > tbody > tr > .active,
+body table > tfoot > tr > .active,
+body table > thead > .active > td,
+body table > tbody > .active > td,
+body table > tfoot > .active > td,
+body table > thead > .active > th,
+body table > tbody > .active > th,
+body table > tfoot > .active > th {
+  background-color: #f5f5f5;
+}
+body table > thead > tr > .success,
+body table > tbody > tr > .success,
+body table > tfoot > tr > .success,
+body table > thead > .success > td,
+body table > tbody > .success > td,
+body table > tfoot > .success > td,
+body table > thead > .success > th,
+body table > tbody > .success > th,
+body table > tfoot > .success > th {
+  background-color: #dff0d8;
+}
+body table > thead > tr > .danger,
+body table > tbody > tr > .danger,
+body table > tfoot > tr > .danger,
+body table > thead > .danger > td,
+body table > tbody > .danger > td,
+body table > tfoot > .danger > td,
+body table > thead > .danger > th,
+body table > tbody > .danger > th,
+body table > tfoot > .danger > th {
+  background-color: #f2dede;
+}
+body table > thead > tr > .warning,
+body table > tbody > tr > .warning,
+body table > tfoot > tr > .warning,
+body table > thead > .warning > td,
+body table > tbody > .warning > td,
+body table > tfoot > .warning > td,
+body table > thead > .warning > th,
+body table > tbody > .warning > th,
+body table > tfoot > .warning > th {
+  background-color: #fcf8e3;
+}
+body section {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+body section blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
 }
 body header {
   background-color: white;
@@ -6313,13 +6417,8 @@ body .layout-one section .carousel-inner img {
 body .layout-one #main-slide {
   margin-bottom: 20px;
 }
-body .layout-two h3 {
-  font-size: 3em;
-  margin-bottom: 20px;
-}
 body .layout-two h4 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  text-align: left;
 }
 body .layout-two section {
   min-height: 20px;
@@ -6344,141 +6443,22 @@ body .layout-two #title {
   margin-top: 30px;
   height: 30%;
 }
-body .layout-two #pricing table {
-  width: 100%;
-  margin-bottom: 20px;
-}
-body .layout-two #pricing table > thead > tr > th,
-body .layout-two #pricing table > tbody > tr > th,
-body .layout-two #pricing table > tfoot > tr > th,
-body .layout-two #pricing table > thead > tr > td,
-body .layout-two #pricing table > tbody > tr > td,
-body .layout-two #pricing table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.428571429;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
-}
-body .layout-two #pricing table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #dddddd;
-}
-body .layout-two #pricing table > caption + thead > tr:first-child > th,
-body .layout-two #pricing table > colgroup + thead > tr:first-child > th,
-body .layout-two #pricing table > thead:first-child > tr:first-child > th,
-body .layout-two #pricing table > caption + thead > tr:first-child > td,
-body .layout-two #pricing table > colgroup + thead > tr:first-child > td,
-body .layout-two #pricing table > thead:first-child > tr:first-child > td {
-  border-top: 0;
-}
-body .layout-two #pricing table > tbody + tbody {
-  border-top: 2px solid #dddddd;
-}
-body .layout-two #pricing table .table {
-  background-color: #ffffff;
-}
-body .layout-two #pricing table > thead > tr > .active,
-body .layout-two #pricing table > tbody > tr > .active,
-body .layout-two #pricing table > tfoot > tr > .active,
-body .layout-two #pricing table > thead > .active > td,
-body .layout-two #pricing table > tbody > .active > td,
-body .layout-two #pricing table > tfoot > .active > td,
-body .layout-two #pricing table > thead > .active > th,
-body .layout-two #pricing table > tbody > .active > th,
-body .layout-two #pricing table > tfoot > .active > th {
-  background-color: #f5f5f5;
-}
-body .layout-two #pricing table > thead > tr > .success,
-body .layout-two #pricing table > tbody > tr > .success,
-body .layout-two #pricing table > tfoot > tr > .success,
-body .layout-two #pricing table > thead > .success > td,
-body .layout-two #pricing table > tbody > .success > td,
-body .layout-two #pricing table > tfoot > .success > td,
-body .layout-two #pricing table > thead > .success > th,
-body .layout-two #pricing table > tbody > .success > th,
-body .layout-two #pricing table > tfoot > .success > th {
-  background-color: #dff0d8;
-}
-body .layout-two #pricing table > thead > tr > .danger,
-body .layout-two #pricing table > tbody > tr > .danger,
-body .layout-two #pricing table > tfoot > tr > .danger,
-body .layout-two #pricing table > thead > .danger > td,
-body .layout-two #pricing table > tbody > .danger > td,
-body .layout-two #pricing table > tfoot > .danger > td,
-body .layout-two #pricing table > thead > .danger > th,
-body .layout-two #pricing table > tbody > .danger > th,
-body .layout-two #pricing table > tfoot > .danger > th {
-  background-color: #f2dede;
-}
-body .layout-two #pricing table > thead > tr > .warning,
-body .layout-two #pricing table > tbody > tr > .warning,
-body .layout-two #pricing table > tfoot > tr > .warning,
-body .layout-two #pricing table > thead > .warning > td,
-body .layout-two #pricing table > tbody > .warning > td,
-body .layout-two #pricing table > tfoot > .warning > td,
-body .layout-two #pricing table > thead > .warning > th,
-body .layout-two #pricing table > tbody > .warning > th,
-body .layout-two #pricing table > tfoot > .warning > th {
-  background-color: #fcf8e3;
-}
-body .layout-three h3 {
-  font-size: 3em;
-}
-body .layout-three h4 {
-  font-size: 2em;
-}
-body .layout-three h3,
-body .layout-three h4 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-body .layout-three p {
-  line-height: 20px;
-  margin-bottom: 10px;
-}
 body .layout-three #title {
   text-align: center;
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   margin-top: 30px;
   height: 30%;
-}
-body .layout-three #title blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
 }
 body .layout-three #title img {
   width: 100%;
 }
 body .layout-three #top-content {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   display: inline-block;
 }
-body .layout-three #top-content blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
-}
-body .layout-three #top-content article ul {
+body .layout-three #top-content ul {
   margin-bottom: 20px;
   padding-left: 0;
 }
-body .layout-three #top-content article ul li {
+body .layout-three #top-content ul li {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -6487,157 +6467,33 @@ body .layout-three #top-content article ul li {
   border: 1px solid #dddddd;
   margin-bottom: 10px;
 }
-body .layout-three #top-content article ul li:first-child {
+body .layout-three #top-content ul li:first-child {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }
-body .layout-three #top-content article ul li:last-child {
+body .layout-three #top-content ul li:last-child {
   margin-bottom: 0;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-body .layout-three #top-content article ul li > .badge {
+body .layout-three #top-content ul li > .badge {
   float: right;
 }
-body .layout-three #top-content article ul li > .badge + .badge {
+body .layout-three #top-content ul li > .badge + .badge {
   margin-right: 5px;
 }
-body .layout-three #top-content article iframe {
+body .layout-three #top-content iframe {
   width: 100%;
   height: 400px;
 }
-body .layout-three #top-content article img {
+body .layout-three #top-content img {
   width: 100%;
 }
-body .layout-three #top-content aside {
-  /*li {
-                    margin-bottom: 10px;
-                }*/
-}
-body .layout-three #top-content aside table {
-  width: 100%;
-  margin-bottom: 20px;
-  margin-bottom: 50px;
-}
-body .layout-three #top-content aside table > thead > tr > th,
-body .layout-three #top-content aside table > tbody > tr > th,
-body .layout-three #top-content aside table > tfoot > tr > th,
-body .layout-three #top-content aside table > thead > tr > td,
-body .layout-three #top-content aside table > tbody > tr > td,
-body .layout-three #top-content aside table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.428571429;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
-}
-body .layout-three #top-content aside table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #dddddd;
-}
-body .layout-three #top-content aside table > caption + thead > tr:first-child > th,
-body .layout-three #top-content aside table > colgroup + thead > tr:first-child > th,
-body .layout-three #top-content aside table > thead:first-child > tr:first-child > th,
-body .layout-three #top-content aside table > caption + thead > tr:first-child > td,
-body .layout-three #top-content aside table > colgroup + thead > tr:first-child > td,
-body .layout-three #top-content aside table > thead:first-child > tr:first-child > td {
-  border-top: 0;
-}
-body .layout-three #top-content aside table > tbody + tbody {
-  border-top: 2px solid #dddddd;
-}
-body .layout-three #top-content aside table .table {
-  background-color: #ffffff;
-}
-body .layout-three #top-content aside table > thead > tr > .active,
-body .layout-three #top-content aside table > tbody > tr > .active,
-body .layout-three #top-content aside table > tfoot > tr > .active,
-body .layout-three #top-content aside table > thead > .active > td,
-body .layout-three #top-content aside table > tbody > .active > td,
-body .layout-three #top-content aside table > tfoot > .active > td,
-body .layout-three #top-content aside table > thead > .active > th,
-body .layout-three #top-content aside table > tbody > .active > th,
-body .layout-three #top-content aside table > tfoot > .active > th {
-  background-color: #f5f5f5;
-}
-body .layout-three #top-content aside table > thead > tr > .success,
-body .layout-three #top-content aside table > tbody > tr > .success,
-body .layout-three #top-content aside table > tfoot > tr > .success,
-body .layout-three #top-content aside table > thead > .success > td,
-body .layout-three #top-content aside table > tbody > .success > td,
-body .layout-three #top-content aside table > tfoot > .success > td,
-body .layout-three #top-content aside table > thead > .success > th,
-body .layout-three #top-content aside table > tbody > .success > th,
-body .layout-three #top-content aside table > tfoot > .success > th {
-  background-color: #dff0d8;
-}
-body .layout-three #top-content aside table > thead > tr > .danger,
-body .layout-three #top-content aside table > tbody > tr > .danger,
-body .layout-three #top-content aside table > tfoot > tr > .danger,
-body .layout-three #top-content aside table > thead > .danger > td,
-body .layout-three #top-content aside table > tbody > .danger > td,
-body .layout-three #top-content aside table > tfoot > .danger > td,
-body .layout-three #top-content aside table > thead > .danger > th,
-body .layout-three #top-content aside table > tbody > .danger > th,
-body .layout-three #top-content aside table > tfoot > .danger > th {
-  background-color: #f2dede;
-}
-body .layout-three #top-content aside table > thead > tr > .warning,
-body .layout-three #top-content aside table > tbody > tr > .warning,
-body .layout-three #top-content aside table > tfoot > tr > .warning,
-body .layout-three #top-content aside table > thead > .warning > td,
-body .layout-three #top-content aside table > tbody > .warning > td,
-body .layout-three #top-content aside table > tfoot > .warning > td,
-body .layout-three #top-content aside table > thead > .warning > th,
-body .layout-three #top-content aside table > tbody > .warning > th,
-body .layout-three #top-content aside table > tfoot > .warning > th {
-  background-color: #fcf8e3;
-}
-body .layout-three #top-content aside ul {
-  margin-bottom: 20px;
-  padding-left: 0;
-}
-body .layout-three #top-content aside ul li {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
-  margin-bottom: 10px;
-}
-body .layout-three #top-content aside ul li:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-}
-body .layout-three #top-content aside ul li:last-child {
-  margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-body .layout-three #top-content aside ul li > .badge {
-  float: right;
-}
-body .layout-three #top-content aside ul li > .badge + .badge {
-  margin-right: 5px;
-}
-body .layout-three #top-content aside #bioslimming-pic {
+body .layout-three #top-content #bioslimming-pic {
   width: 60%;
 }
 body .layout-three #bottom-content {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   display: inline-block;
-}
-body .layout-three #bottom-content blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
 }
 body .layout-three #bottom-content aside img {
   min-width: 100%;
@@ -6656,21 +6512,6 @@ body .layout-three #bottom-content #myTabContent img {
 }
 body .layout-three #bottom-content #myTabContent li {
   margin-bottom: 10px;
-}
-body .layout-three #bottom-content #myTabContent section {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-body .layout-three #bottom-content #myTabContent section blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
 }
 body .layout-three #bottom-content #bottom-message {
   margin-top: 20px;
