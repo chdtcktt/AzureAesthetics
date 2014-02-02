@@ -17,9 +17,7 @@ namespace MvcSeasonsSite.Controllers
         // GET: /Home/
      
 
-        #region Index
         private SeasonSiteContext Db { get; set; }
-        private Login OLogin { get; set; }
 
         public HomeController()
         {
@@ -53,84 +51,6 @@ namespace MvcSeasonsSite.Controllers
 
         }
 
-        #endregion
-
-
-        #region Wax and Tint
-        public ActionResult WaxServices()
-        {
-            return View();
-        }
-        
-        public ActionResult TintServices()
-        {
-            return View();
-        }
-        #endregion
-
-        #region NonInvasive LipoLaser
-        public ActionResult LipoLaser()
-        {
-            return View();
-
-        }
-        public ActionResult LipoLaserBNA()
-        {
-            return View();
-        }
-
-        #endregion
-
-        #region Infared and Detox
-
-        public  ActionResult InfaredSlimming()
-        {
-            return View();
-        }
-
-        public ActionResult InfaredDetox()
-        {
-            return View();
-        }
-
-        public ActionResult WBV()
-        {
-            return View();
-        }
-
-        public ActionResult DetoxFootBath()
-        {
-            return View();
-        }
-
-        #endregion
-
-        #region Products
-
-        public ActionResult ThreeOTwoSkinCare()
-        {
-            return View();
-        }
-
-        public ActionResult JIMC()
-        {
-            return View();
-        }
-
-        public ActionResult Bioslimming()
-        {
-            return View();
-
-        }
-
-        public ActionResult OtherProducts()
-        {
-            return View();
-        }
-
-       
-
-        #endregion
 
 
         public ActionResult Specials()

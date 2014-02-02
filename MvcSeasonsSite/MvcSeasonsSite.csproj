@@ -114,7 +114,11 @@
   <ItemGroup>
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InfaredDetoxController.cs" />
+    <Compile Include="Controllers\NoninvasiveLipolaserController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\SkinAndBodyController.cs" />
+    <Compile Include="Controllers\WaxAndTintController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -412,26 +416,14 @@
     <Content Include="Views\Shared\_LayoutPage1.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Specials.cshtml" />
-    <Content Include="Views\Home\WaxServices.cshtml" />
-    <Content Include="Views\Home\TintServices.cshtml" />
-    <Content Include="Views\Home\InfaredSlimming.cshtml" />
     <Content Include="Views\Home\Thanks.cshtml" />
     <Content Include="Scripts\tinymce\langs\readme.md" />
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\icomoon.eot" />
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\icomoon.ttf" />
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\icomoon.woff" />
     <Content Include="Scripts\tinymce\skins\lightgray\fonts\readme.md" />
-    <Content Include="Views\Home\LipoLaser.cshtml" />
-    <Content Include="Views\Home\InfaredDetox.cshtml" />
-    <Content Include="Views\Home\WBV.cshtml" />
-    <Content Include="Views\Home\DetoxFootBath.cshtml" />
-    <Content Include="Views\Home\ThreeOTwoSkinCare.cshtml" />
-    <Content Include="Views\Home\JIMC.cshtml" />
-    <Content Include="Views\Home\OtherProducts.cshtml" />
     <Content Include="Views\Login\AdminLogin.cshtml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
-    <Content Include="Views\Home\Bioslimming.cshtml" />
-    <Content Include="Views\Home\LipoLaserBNA.cshtml" />
     <Content Include="Views\Admin\Admin.cshtml" />
     <Content Include="Views\Admin\AdminSpecial.cshtml" />
     <Content Include="Views\Admin\AdminEmailAddress.cshtml" />
@@ -442,6 +434,18 @@
     <Content Include="Views\SkinAndBody\Body.cshtml" />
     <Content Include="Views\SkinAndBody\BodyBronzing.cshtml" />
     <Content Include="Views\SkinAndBody\BioslimmingWrap.cshtml" />
+    <Content Include="Views\WaxAndTint\WaxServices.cshtml" />
+    <Content Include="Views\WaxAndTint\TintServices.cshtml" />
+    <Content Include="Views\NoninvasiveLipolaser\LipoLaser.cshtml" />
+    <Content Include="Views\NoninvasiveLipolaser\LipoLaserBNA.cshtml" />
+    <Content Include="Views\InfaredDetox\InfaredSlimming.cshtml" />
+    <Content Include="Views\InfaredDetox\InfaredDetox.cshtml" />
+    <Content Include="Views\InfaredDetox\WBV.cshtml" />
+    <Content Include="Views\InfaredDetox\DetoxFootBath.cshtml" />
+    <Content Include="Views\Products\ThreeOTwoSkinCare.cshtml" />
+    <Content Include="Views\Products\JaneIredale.cshtml" />
+    <Content Include="Views\Products\Bioslimming.cshtml" />
+    <Content Include="Views\Products\OtherProducts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

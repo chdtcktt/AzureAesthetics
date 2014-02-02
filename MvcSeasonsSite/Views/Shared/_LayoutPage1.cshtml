@@ -5,8 +5,6 @@
     <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width" />
-    @*<link href="~/Content/lightbox.css" rel="stylesheet" />*@
-
     <link href="~/Content/styles/05style.less" rel="stylesheet" type="text/css" />
 
     <title>@ViewBag.Title</title>
@@ -49,7 +47,6 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         Skin and Body
-                        @*<b class="caret"></b>*@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="~/SkinAndBody/Facials">Facials</a></li>
@@ -64,12 +61,10 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         Wax & Tint
-                        @*<b class="caret"></b>*@
-
                     </a>
                     <ul class="dropdown-menu">
-                        <li>@Html.ActionLink("Wax Services", "WaxServices")</li>
-                        <li>@Html.ActionLink("Tint Services", "TintServices")</li>
+                        <li><a href="~/WaxAndTint/WaxServices">Wax Services</a></li>
+                        <li><a href="~/WaxAndTint/TintServices">Tint Services</a></li>
                     </ul>
                 </li>
 
@@ -77,37 +72,34 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         Non-Invasive LipoLaser
-                        @*<b class="caret"></b>*@
                     </a>
                     <ul class="dropdown-menu">
-                        <li>@Html.ActionLink("LipoLaser Services", "LipoLaser")</li>
-                        <li>@Html.ActionLink("Before and After", "LipoLaserBNA")</li>
+                        <li><a href="~/NoninvasiveLipolaser/LipoLaser">LipoLaser Services</a></li>
+                        <li><a href="~/NoninvasiveLipolaser/LipoLaserBNA">Before and After</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         Infrared Detox Treatment
-                        @*<b class="caret"></b>*@
                     </a>
                     <ul class="dropdown-menu">
-                        <li>@Html.ActionLink("Infared Slimming", "InfaredSlimming")</li>
-                        <li>@Html.ActionLink("Infared Detox", "InfaredDetox")</li>
-                        <li>@Html.ActionLink("Whole Body Vibration", "WBV")</li>
-                        <li>@Html.ActionLink("Detox Foot Bath", "DetoxFootBath")</li>
+                        <li><a href="~/InfaredDetox/InfaredSlimming">Infared Slimming</a></li>
+                        <li><a href="~/InfaredDetox/InfaredDetox">Infared Detox</a></li>
+                        <li><a href="~/InfaredDetox/WBV">Whole Body Vibration</a></li>
+                        <li><a href="~/InfaredDetox/DetoxFootBath">Detox Foot Bath</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         Products
-                        @*<b class="caret"></b>*@
                     </a>
                     <ul class="dropdown-menu">
-                        <li>@Html.ActionLink("302 Skin Care Line", "ThreeOTwoSkinCare")</li>
-                        <li>@Html.ActionLink("Jane Iredale Mineral Cosmetics", "JIMC")</li>
-                        <li>@Html.ActionLink("Bioslimming", "Bioslimming")</li>
-                        <li>@Html.ActionLink("Other Products", "OtherProducts")</li>
+                        <li><a href="~/Products/ThreeOTwoSkinCare">302 Skin Care Line</a></li>
+                        <li><a href="~/Products/JaneIredale">Jane Iredale Mineral Cosmetics</a></li>
+                        <li><a href="~/Products/Bioslimming">Bioslimming</a></li>
+                        <li><a href="~/Products/OtherProducts">Other Products</a></li>
 
                     </ul>
                 </li>
