@@ -6207,10 +6207,16 @@ body h4 {
 body h3,
 body h4 {
   font-family: 'Italianno', cursive;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 1.2em;
   text-align: center;
+}
+body h5 {
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
 body p {
   line-height: 20px;
@@ -6418,24 +6424,6 @@ body .layout-one section .carousel-inner img {
 body .layout-one #main-slide {
   margin-bottom: 20px;
 }
-body .layout-two h4 {
-  text-align: left;
-}
-body .layout-two section {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-body .layout-two section blockquote {
-  border-color: #ddd;
-  border-color: rgba(0, 0, 0, 0.15);
-}
 body .layout-two section img {
   width: 100%;
 }
@@ -6501,12 +6489,6 @@ body .layout-three #bottom-content aside img {
 }
 body .layout-three #bottom-content #myTabContent {
   margin-top: 30px;
-}
-body .layout-three #bottom-content #myTabContent h5 {
-  font-size: 1.3em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-decoration: underline;
 }
 body .layout-three #bottom-content #myTabContent img {
   width: 100%;
