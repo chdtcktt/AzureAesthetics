@@ -1,4 +1,4 @@
-﻿/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
 details,
@@ -6480,6 +6480,9 @@ body .layout-three #top-content img {
 }
 body .layout-three #top-content #bioslimming-pic {
   width: 60%;
+}
+body .layout-three #top-content #bioslimming-productpage img {
+  width: 45%;
 }
 body .layout-three #bottom-content {
   display: inline-block;
