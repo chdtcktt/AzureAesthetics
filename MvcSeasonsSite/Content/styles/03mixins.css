@@ -1,1 +1,9 @@
-﻿
+﻿.titles-all {
+  text-align: center;
+  margin-top: 30px;
+  height: 30%;
+  display: block;
+}
+.titles-all img {
+  width: 100%;
+}

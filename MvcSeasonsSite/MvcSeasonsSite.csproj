@@ -227,6 +227,9 @@
     <Content Include="Content\styles\03mixins.css">
       <DependentUpon>03mixins.less</DependentUpon>
     </Content>
+    <Content Include="Content\styles\03mixins.min.css">
+      <DependentUpon>03mixins.css</DependentUpon>
+    </Content>
     <Content Include="Content\styles\04colorscheme.css">
       <DependentUpon>02variables.less</DependentUpon>
     </Content>
