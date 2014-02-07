@@ -196,15 +196,11 @@
     <Content Include="Content\Images\next.png" />
     <Content Include="Content\Images\NutraluxLash\nutraluxe.jpg" />
     <Content Include="Content\Images\prev.png" />
+    <Content Include="Content\Images\Seamles-Blue-59.jpg" />
     <Content Include="Content\Images\storepics\20131130_121237.jpg" />
     <Content Include="Content\Images\storepics\20131130_121251.jpg" />
-    <Content Include="Content\Images\storepics\20131130_121256.jpg" />
-    <Content Include="Content\Images\storepics\20131130_121330.jpg" />
     <Content Include="Content\Images\storepics\20131130_121339.jpg" />
     <Content Include="Content\Images\storepics\20131130_121357.jpg" />
-    <Content Include="Content\Images\storepics\20131130_121428.jpg" />
-    <Content Include="Content\Images\storepics\20131130_121436.jpg" />
-    <Content Include="Content\Images\storepics\20131130_121459.jpg" />
     <Content Include="Content\Images\Tint Services\Tintphotosbandafter.jpg" />
     <Content Include="Content\Images\Tint Services\Tintphotosbandafter1.jpg" />
     <Content Include="Content\Images\Tint Services\Tintphotosbandafter1_Large.jpg" />
@@ -318,6 +314,7 @@
     <Content Include="Content\styles\04layout.less" />
     <Content Include="Content\styles\05style.less" />
     <Content Include="Content\styles\03mixins.less" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="googlef7764b3963b2f0d9.html" />
     <Content Include="LuxuryPeacockSmall.ico" />
