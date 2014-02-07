@@ -1,4 +1,4 @@
-﻿/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
 details,
@@ -6446,6 +6446,12 @@ body #skinandbody-makup {
   display: block;
 }
 body #infareddetox-topcontent {
+  display: block;
+}
+body #administration-page {
+  display: block;
+}
+body .display-block {
   display: block;
 }
 body .image-threequarter {

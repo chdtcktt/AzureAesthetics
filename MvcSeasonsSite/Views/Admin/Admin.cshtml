@@ -2,45 +2,39 @@
     ViewBag.Title = "Admin";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
+<div class="layout-two">
+    <section id="title">
+        <h3>Administration</h3>
 
-<div class="white-container boxes">
+    </section>
 
-    <ul id="myTab" class="nav nav-tabs">
-        <li class="active"><a href="#Email" data-toggle="tab">Email Admin</a></li>
-        <li><a href="#Specials" data-toggle="tab">Specials Admin</a></li>
-    </ul>
+    <section class="display-block">
 
-
-
-    <div id="myTabContent" class="tab-content">
-        <div class="tab-pane fade in active" id="Email">
-
-
-
-            <h3>Email Address Admin</h3>
-            @Html.Action("AdminEmailAddress")
-            <br />
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#Email" data-toggle="tab">Email Admin</a></li>
+            <li><a href="#Specials" data-toggle="tab">Specials Admin</a></li>
+        </ul>
 
 
-            <h3>Copy and Paste these into your message to spam folks!</h3>
-            @Html.Action("AdminEmailVomit")
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="Email">
 
 
+                <h5>Emails Collected</h5>
+                @Html.Action("AdminEmailAddress")
+
+
+                <h5>Copy and Paste these into your message to spam folks!</h5>
+                @Html.Action("AdminEmailVomit")
+
+
+            </div>
+            <div class="tab-pane fade" id="Specials">
+                <h5>Specials Admin</h5>
+                @Html.Action("AdminSpecial")
+            </div>
         </div>
-        <div class="tab-pane fade" id="Specials">
-            <h3>Specials Admin</h3>
-            @Html.Action("AdminSpecial")
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-        </div>
-    </div>
 </div>

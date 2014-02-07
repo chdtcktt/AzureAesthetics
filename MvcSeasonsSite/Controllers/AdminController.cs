@@ -26,7 +26,7 @@ namespace MvcSeasonsSite.Controllers
         {
             if (Session["isUserAuthenticated"] == null)
             {
-                return RedirectToAction("AdminLogin");
+                return RedirectToAction("Login");
             }
 
             if ((bool)Session["isUserAuthenticated"]) // return the admin view if authenticated
@@ -35,7 +35,7 @@ namespace MvcSeasonsSite.Controllers
             {
 
 
-                return RedirectToAction("AdminLogin"); // redirect to login page if not authenticate
+                return RedirectToAction("Login"); // redirect to login page if not authenticate
             }
 
 
@@ -105,7 +105,7 @@ namespace MvcSeasonsSite.Controllers
         }
 
         [HttpPost]
-        public ActionResult AdminLogin(Login login)
+        public ActionResult Login(Login login)
         {
             // if the session variable is null or set to false, this user is not authenticated
             if (Session["isUserAuthenticated"] == null || (bool)Session["isUserAuthenticated"] == false)

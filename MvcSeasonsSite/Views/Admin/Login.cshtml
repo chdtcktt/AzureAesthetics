@@ -4,20 +4,25 @@
     ViewBag.Title = "AdminLogin";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
+<div class="layout-two">
+    <section id="title">
+        <h3>Administration</h3>
+    </section>
+    <section id="administration-page">
+        @using (Html.BeginForm())
+        {
 
-<div class="white-container boxes">
+            @Html.ValidationSummary()
+            <p>User Name:</p>
+            <p> @Html.TextBoxFor(x => x.User)</p>
+            <p>Password:</p>
+            @*p> @Html.TextBoxFor(x=> x.Pass)</p>*@
+            <p>@Html.PasswordFor(p => p.Pass)</p>
 
-    @using (Html.BeginForm())
-    {
+            <p><input class="btn btn-primary" type="submit" value="Let My Ass in!" /></p>
 
-        @Html.ValidationSummary()
-        <p>User Name:</p>
-        <p> @Html.TextBoxFor(x => x.User)</p>
-        <p>Password:</p>
-        @*p> @Html.TextBoxFor(x=> x.Pass)</p>*@
-        <p>@Html.PasswordFor(p => p.Pass)</p>
+        }
 
-        <p><input class="btn btn-primary" type="submit" value="Let My Ass in!" /></p>
+    </section>
 
-    }
 </div>
