@@ -5,18 +5,23 @@
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
 
-<title>Thanks!</title>
+<div class="layout-two">
+    <section id="title">
+        <h3>Thank you!</h3>
+    </section>
+    <section class="display-block">
+        <p>
+            Hello, @Model.Email
+            <br />
+            So glad you decided to be on our mailing list!
+            We will be sending you specials very soon.
+            <br />
+            @Html.ActionLink("Return", "Index")
+        </p>
 
-<div class="white-container boxes">
-    <h3 class="text-center">Thank you, @Model.Email
-        <br/>
-        So glad you decided to be on our mailing list!
-        We will be sending you specials very soon.
-        <br/>
-        @Html.ActionLink("Return","Index")
-    </h3>
-    
-  
+
+    </section>
+
 </div>
 
 
