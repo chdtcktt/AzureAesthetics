@@ -1,4 +1,4 @@
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+﻿/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
 details,
@@ -6156,7 +6156,7 @@ table {
   }
 }
 body {
-  background-image: url(../Images/Seamles-Blue-59.jpg);
+  background-image: url(../../Content/Images/Seamles-Blue.PNG);
   font-family: 'Simonetta', cursive;
   line-height: 1.2em;
   font-weight: 500;

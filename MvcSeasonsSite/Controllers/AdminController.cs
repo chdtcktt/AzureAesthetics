@@ -102,6 +102,7 @@ namespace MvcSeasonsSite.Controllers
         public ActionResult Login()
         {
             return View();
+         
         }
 
         [HttpPost]
