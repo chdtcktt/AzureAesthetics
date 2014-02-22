@@ -307,6 +307,7 @@
     <Content Include="Content\styles\04layout.less" />
     <Content Include="Content\styles\05style.less" />
     <Content Include="Content\styles\03mixins.less" />
+    <None Include="Properties\PublishProfiles\Production.pubxml" />
     <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="googlef7764b3963b2f0d9.html" />
